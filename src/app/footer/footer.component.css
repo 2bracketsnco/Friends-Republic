@@ -1,0 +1,12 @@
+  .copyrightSection {
+    background-color: #000;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+  }
+  
+  .copyrightSection p {
+    margin: 0;
+  }

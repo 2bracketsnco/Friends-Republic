@@ -1,0 +1,56 @@
+#navigation {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 24px 10px;
+  z-index: 100;
+  width: 100%;
+  margin-bottom: -4px;
+}
+
+#navigation li {
+  padding: 0 10px;
+  transition: .3s;
+  margin-right: 10px;
+}
+
+#navigation li:hover {
+  font-weight: 600;
+  transition: .3s;
+  transform: scale(1.2);
+}
+
+#navigation li a {
+  color: #fff;
+}
+
+.navbar-brand {
+  color: #fff;
+  margin-bottom: 5px;
+  margin-left: 8px;
+}
+
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-toggler-icon {
+  background: url(../assets/images/icons/menu.png);
+  background-size: 100%;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+  outline: none;
+  box-shadow: none;
+}
+
+#navigation {
+  position: fixed;
+  top: 0;
+}
+
+.nav-logo {
+  height: 61px;
+  position: fixed;
+  top: .5em;
+  display: none;
+  opacity: 0.65;
+}

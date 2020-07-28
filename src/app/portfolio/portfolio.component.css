@@ -1,0 +1,289 @@
+.statsSection {
+    padding-bottom: 10px;
+    background-color: #000;
+    color: #fff;
+    margin-bottom: -1px;
+    margin-top: -4px;
+  }
+
+.heading {
+  padding-top: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.filter {
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.filter ul {
+  display: inline-block;
+  padding: 5px;
+  margin: auto;
+  width: 100%;
+}
+
+.filter li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.filter a {
+  color: #fff;
+  border: 1px solid #fff;
+  display: block;
+  min-width: 100px;
+  line-height: 40px;
+  transition: .3s;
+  padding: 0 4px 0 4px;
+}
+
+.filter .current {
+  background-color: rgba(255, 255, 255, 0.8);
+  ;
+  border-color: #fff;
+  color: #000000;
+}
+
+.filter a:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  ;
+  border-color: #fff;
+  color: #000000;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.statsSection .heading {
+  text-align: center;
+  padding-bottom: 40px;
+  width: 100%;
+}
+.items li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.itemsContainer {
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+
+.items li img {
+  width: 100%;
+  -webkit-transition: all 0.3s linear, 1s;
+  -ms-transition: all 0.3s linear, 1s;
+  -mz-transition: all 0.3s linear, 1s;
+  -o-transition: all 0.3s linear, 1s;
+  -transition: all 0.3s linear, 1s;
+}
+
+.items .item {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.items .icons {
+  position: absolute;
+  width: 90px;
+  height: 40px;
+  left: 50%;
+  top: 80%;
+  margin: -20px auto 0 -47px;
+  text-align: center;
+  z-index: 3;
+}
+
+.items .icons i {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 9px;
+}
+
+.items a {
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  position: relative;
+  display: inline-block;
+  -webkit-transition: all 0.2s linear, 0.2s;
+  -moz-transition: all 0.2s linear, 0.2s;
+  -o-transition: all 0.2s linear, 0.2s;
+  -ms-transition: all 0.2s linear, 0.2s;
+  -transition: all 0.2s linear, 0.2s;
+}
+
+.items .imageOverlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+  -webkit-transition: all 0.2s linear, 1s;
+  -moz-transition: all 0.2s linear, 1s;
+  -o-transition: all 0.2s linear, 1s;
+  -ms-transition: all 0.2s linear, 1s;
+  -transition: all 0.2s linear, 1s;
+}
+
+.items .item:hover .imageOverlay {
+  opacity: 1;
+}
+
+.items .openButton {
+  float: left;
+  left: -250px;
+}
+
+.items .projectLink {
+  float: right;
+  right: -250px;
+}
+
+.items .item:hover .openButton {
+  left: 0px;
+}
+
+.items .item:hover .projectLink {
+  right: 0px;
+}
+
+.items .item:hover img {
+  -webkit-transform: scale(1.05, 1.05);
+  -moz-transform: scale(1.05, 1.05);
+  -o-transform: scale(1.05, 1.05);
+  -ms-transform: scale(1.05, 1.05);
+  -transform: scale(1.05, 1.05);
+}
+
+.items {
+  padding: 0;
+}.titem li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.titem li img {
+  width: 100%;
+  -webkit-transition: all 0.3s linear, 1s;
+  -ms-transition: all 0.3s linear, 1s;
+  -mz-transition: all 0.3s linear, 1s;
+  -o-transition: all 0.3s linear, 1s;
+  -transition: all 0.3s linear, 1s;
+}
+
+.titem .item {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.titem .icons {
+  position: absolute;
+  top: 80%;
+  text-align: center;
+  z-index: 3;
+  background: darkslategrey;
+  padding: 3px;
+}
+
+.titem .icons i {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 9px;
+}
+
+.titem a {
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  position: relative;
+  display: inline-block;
+  -webkit-transition: all 0.2s linear, 0.2s;
+  -moz-transition: all 0.2s linear, 0.2s;
+  -o-transition: all 0.2s linear, 0.2s;
+  -ms-transition: all 0.2s linear, 0.2s;
+  -transition: all 0.2s linear, 0.2s;
+}
+
+.titem .imageOverlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+  -webkit-transition: all 0.2s linear, 1s;
+  -moz-transition: all 0.2s linear, 1s;
+  -o-transition: all 0.2s linear, 1s;
+  -ms-transition: all 0.2s linear, 1s;
+  -transition: all 0.2s linear, 1s;
+}
+
+.titem .item:hover .imageOverlay {
+  opacity: 1;
+}
+
+.titem .openButton {
+  float: left;
+  left: -250px;
+}
+
+.titem .projectLink {
+  float: right;
+  right: -250px;
+}
+
+.titem .item:hover .openButton {
+  left: 0px;
+}
+
+.titem .item:hover .projectLink {
+  right: 0px;
+}
+
+.titem .item:hover img {
+  -webkit-transform: scale(1.05, 1.05);
+  -moz-transform: scale(1.05, 1.05);
+  -o-transform: scale(1.05, 1.05);
+  -ms-transform: scale(1.05, 1.05);
+  -transform: scale(1.05, 1.05);
+}
+
+.titem {
+  padding: 0;
+}
+
+.filter .filter-apps:hover {
+  background-color: #3f51b5;
+  color: white;
+}
+
+.filter .filter-eb:hover {
+  background-color: #00897b;
+  color: white;
+}
+
+.filter .filter-roms:hover {
+  background-color: #ef6c00;
+  color: white;
+}
+
+.filter .filter-websites:hover {
+  background-color: #607d8b;
+  color: white;
+}
+
+.filter .filter-other:hover {
+  background-color: #00695f;
+  color: white;
+}
