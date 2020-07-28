@@ -59,7 +59,7 @@
 
 .statsSection .heading {
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
   width: 100%;
 }
 .items li {
@@ -71,7 +71,6 @@
   width: 100%;
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 50px;
 }
 
 .items li img {
