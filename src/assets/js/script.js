@@ -24,14 +24,14 @@ $(document).ready(function () {
         pagination: false
     });
 
-    var typed = new Typed(".typed", {
-        strings: ["Film Maker", "Editor", "Creator", "Cinematographer", "Director"],
-        typeSpeed: 50,
-        loop: true,
-        startDelay: 400,
-        showCursor: false
+    // var typed = new Typed(".typed", {
+    //     strings: ["Film Maker", "Editor", "Creator", "Cinematographer", "Director"],
+    //     typeSpeed: 50,
+    //     loop: true,
+    //     startDelay: 400,
+    //     showCursor: false
 
-    });
+    // });
 
     var skillsTopOffset = $(".skillsSection").offset().top;
     var statsTopOffset = $(".statsSection").offset().top;
