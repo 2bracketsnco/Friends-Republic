@@ -1,5 +1,5 @@
 <div id="portfolio" class="statsSection">
-    <div class="container">
+    <div class="slides-container">
         <div class="row">
             <div class="heading">
                 <hr class="line" width="40%">
@@ -17,10 +17,22 @@
             </div> -->
             <div class="itemsContainer">
                 <ul class="row items">
-                    <li onclick="" class="{{ items.class }} col-6 col-sm-4 col-md-4 col-lg-4" *ngFor="let items of project">
+                    <li onclick="" class="{{ items.class }} col-6 col-sm-4 col-md-12 col-lg-6" data-toggle="modal" data-target="#myModal" *ngFor="let items of project">
                         <div class="item">
+                            <div class="modal fade" id="myModal" role="dialog">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-body">
+                                        <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                                            <iframe class="embed-responsive-item" [src]="items.video | safe"
+                                            allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
                             <img src="{{ items.cover }}">
-                            <div class="icons">
+                            <!-- <div class="icons">
                                 <a href="{{ items.video }}" data-type="iframe" class="openButton"
                                     data-fancybox>
                                     <i class="fas fa-video"></i>
@@ -29,7 +41,7 @@
                                     target="_blank" rel="noopener" class="projectLink">
                                     <i class="fa fa-link"></i>
                                 </a>
-                            </div>
+                            </div> -->
                             <div class="imageOverlay"></div>
                         </div>
                     </li>

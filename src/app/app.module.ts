@@ -9,6 +9,7 @@ import { DekComponent } from './dek/dek.component';
 import { AboutComponent } from './about/about.component';
 import { TeamComponent } from './team/team.component';
 import { ContactComponent } from './contact/contact.component';
+import { SafePipe } from './safe.pipe';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ContactComponent } from './contact/contact.component';
     DekComponent,
     AboutComponent,
     TeamComponent,
-    ContactComponent
+    ContactComponent,
+    SafePipe
   ],
   imports: [
     BrowserModule,
