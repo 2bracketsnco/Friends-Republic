@@ -19,7 +19,7 @@
                 <ul class="row items">
                     <li onclick="" class="{{ items.class }} col-12 col-sm-12 col-md-12 col-lg-6" data-toggle="modal" data-target="#myModal" *ngFor="let items of project">
                         <div class="item">
-                            <!-- <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal fade no-gutters" id="myModal" role="dialog">
                                 <div class="modal-dialog">
                                   <div class="modal-content">
                                     <div class="modal-body">
@@ -30,7 +30,7 @@
                                     </div>
                                   </div>
                                 </div>
-                            </div> -->
+                            </div>
                             <img src="{{ items.cover }}">
                             <div class="icons">
                                 <a href="{{ items.video }}" data-type="iframe" class="openButton"
