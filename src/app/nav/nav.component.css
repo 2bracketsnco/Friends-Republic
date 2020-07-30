@@ -54,3 +54,8 @@
     display: none;
     opacity: 0.65;
   }
+
+  #navbarNav {
+    justify-content: flex-end;
+    margin-right: 50px;
+  }
