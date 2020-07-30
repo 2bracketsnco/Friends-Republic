@@ -10,6 +10,7 @@ import { AboutComponent } from './about/about.component';
 import { TeamComponent } from './team/team.component';
 import { ContactComponent } from './contact/contact.component';
 import { SafePipe } from './safe.pipe';
+import { NavComponent } from './nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SafePipe } from './safe.pipe';
     AboutComponent,
     TeamComponent,
     ContactComponent,
-    SafePipe
+    SafePipe,
+    NavComponent
   ],
   imports: [
     BrowserModule,
