@@ -62,5 +62,5 @@
   }
 
   video {
-    width: auto;
+    width: -webkit-fill-available;
   }
