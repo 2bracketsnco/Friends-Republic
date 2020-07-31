@@ -8,7 +8,7 @@ $(window).on("load", function () {
     $container.isotope({
         filter: '*',
         animationOptions: {
-            duration: 1500,
+            // duration: 1500,
             easing: 'linear',
             queue: false
         }
