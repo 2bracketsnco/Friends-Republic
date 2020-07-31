@@ -86,19 +86,19 @@ $(document).ready(function () {
     });
 
     const port = $("#portfolio");
-    const portTop = port.offset().top - 90;
+    const portTop = port.offset().top - 50;
 
     $(window).on("scroll", stickyLogo);
 
     function stickyLogo() {
 
-        var logo = $("#nav-brand");
+        var logo = $("#navigation");
 
         if ($(window).scrollTop() >= portTop) {
-            logo.fadeIn(600);
+            logo.addClass("nav-dark")
         }
         else {
-            logo.fadeOut(600); 
+            logo.removeClass("nav-dark")
         }
     }
 
