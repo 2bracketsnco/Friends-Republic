@@ -21,14 +21,49 @@
                         <div class="item">
                             <div class="modal fade no-gutters" id="myModal" role="dialog">
                                 <div class="modal-dialog">
-                                  <div class="modal-content">
+                                  <!-- <div class="modal-content">
                                     <div class="modal-body">
                                         <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
                                             <iframe class="embed-responsive-item" [src]="items.video | safe"
                                             allowfullscreen></iframe>
                                         </div>
                                     </div>
-                                  </div>
+                                  </div> -->
+                                </div>
+                                <div class="modal-header">
+                                    <!-- <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5> -->
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: white;">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body" style="background-color: black;">
+                                    <div class="container-fluid">
+                                      <div class="row">
+                                        <div class="col-md-8 embed-responsive embed-responsive-16by9 z-depth-1-half">
+                                            <!-- <img src="./assets/images/thumbnails/vishnu.jpg"> -->
+                                            <!-- <iframe class="embed-responsive-item" [src]="items.video | safe"
+                                                allowfullscreen></iframe> -->
+                                                <video poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline="playsinline" autoplay="autoplay" [muted]="'muted'" loop="loop">
+                                                    <source src="https://res.cloudinary.com/kaushalshah1307/video/upload/v1596276202/Website_reel_8M_cniufq.mp4" type="video/mp4">
+                                                  </video>
+                                        </div>
+                                        <div class="col-md-4 ml-auto">
+                                            <p>Lorem ipsum dolor sit amet, no probo habeo virtute per, atqui sensibus erroribus vim id. Duis salutandi molestiae vel ei. Ea hinc nostro ocurreret nec. 
+                                                Ad per equidem scripserit, vis in sale eleifend patrioque, assum nonumy an quo. Ius case oblique eu.</p>
+                                            <p>Docendi evertitur vituperata per at. Timeam salutatus reprehendunt duo id, equidem fabulas iracundia mei an. 
+                                                Sit virtute cotidieque ea, ex cum fuisset copiosae repudiandae. Sit ut civibus perpetua dissentias. Sit meis interpretaris an, cibo posidonium consectetuer cum no, mel soleat volutpat ex.</p>
+                                        </div>
+                                      </div>
+                                      <br>
+                                      <div class="row">
+                                        <div class="col-md-12">
+                                        <p>Lorem ipsum dolor sit amet, no probo habeo virtute per, atqui sensibus erroribus vim id. Duis salutandi molestiae vel ei. Ea hinc nostro ocurreret nec. 
+                                            Ad per equidem scripserit, vis in sale eleifend patrioque, assum nonumy an quo. Ius case oblique eu.</p>
+                                        <p>Docendi evertitur vituperata per at. Timeam salutatus reprehendunt duo id, equidem fabulas iracundia mei an. 
+                                            Sit virtute cotidieque ea, ex cum fuisset copiosae repudiandae. Sit ut civibus perpetua dissentias. Sit meis interpretaris an, cibo posidonium consectetuer cum no, mel soleat volutpat ex.</p>
+                                        </div>    
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <img src="{{ items.cover }}">
