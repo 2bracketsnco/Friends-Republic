@@ -62,8 +62,8 @@
   }
 
   video {
-    position: relative;
+    /* position: relative;
     height: auto !important;
-    width: auto !important;
+    width: auto !important; */
     overflow-x: hidden;
   }

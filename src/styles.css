@@ -280,9 +280,9 @@ body {
 }
 
 @media screen and (min-width: 992px) {
-  .nav-logo {
+  /* .nav-logo {
     margin-left: 50px;
-  }
+  } */
 }
 
 @media screen and (max-width: 993px) {
