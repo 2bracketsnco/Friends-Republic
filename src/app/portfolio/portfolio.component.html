@@ -1,295 +1,300 @@
 <div id="portfolio" class="statsSection no-gutters">
     <div class="slides-container">
-        <div class="row">
-            <div class="heading">
-                <hr class="line" width="40%">
-                <h2>WORK</h2>
-            </div>
-            <!-- <div class="filter">
-                <ul id="filters">
-                    <li><a href="#" data-filter="*" class="current">ALL</a></li>
-                    <li><a href="#" class="filter-apps" data-filter=".short">SHORT FILMS</a></li>
-                    <li><a href="#" class="filter-eb" data-filter=".web">WEB SERIES</a></li>
-                    <li><a href="#" class="filter-roms" data-filter=".doc">DOCUMENTARIES</a></li>
-                    <li><a href="#" class="filter-websites" data-filter=".after">AFTER MOVIES</a></li>
-                    <li><a href="#" class="filter-other" data-filter=".others">OTHERS</a></li>
-                </ul>
-            </div> -->
-            <div class="itemsContainer">
-                <ul class="row items">
-                    <li onclick="" class="{{ items.class }} col-12 col-sm-12 col-md-12 col-lg-6" data-toggle="modal" data-target="#myModal" *ngFor="let items of project">
-                        <div class="item">
-                            <div class="modal fade no-gutters" id="myModal" role="dialog">
-                                <div class="modal-dialog">
-                                  <!-- <div class="modal-content">
-                                    <div class="modal-body">
-                                        <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                                            <iframe class="embed-responsive-item" [src]="items.video | safe"
-                                            allowfullscreen></iframe>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="heading">
+                    <hr class="line" width="40%">
+                    <h2>WORK</h2>
+                </div>
+                <!-- <div class="filter">
+                    <ul id="filters">
+                        <li><a href="#" data-filter="*" class="current">ALL</a></li>
+                        <li><a href="#" class="filter-apps" data-filter=".short">SHORT FILMS</a></li>
+                        <li><a href="#" class="filter-eb" data-filter=".web">WEB SERIES</a></li>
+                        <li><a href="#" class="filter-roms" data-filter=".doc">DOCUMENTARIES</a></li>
+                        <li><a href="#" class="filter-websites" data-filter=".after">AFTER MOVIES</a></li>
+                        <li><a href="#" class="filter-other" data-filter=".others">OTHERS</a></li>
+                    </ul>
+                </div> -->
+                <div class="itemsContainer">
+                    <ul class="row items">
+                        <li onclick="" class="{{ items.class }} col-12 col-sm-12 col-md-12 col-lg-6" data-toggle="modal" data-target="#myModal" *ngFor="let items of project">
+                            <div class="item">
+                                <div class="modal fade no-gutters" id="myModal" role="dialog">
+                                    <div class="modal-dialog" style="display: none;">
+                                    <!-- <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                                                <iframe class="embed-responsive-item" [src]="items.video | safe"
+                                                allowfullscreen></iframe>
+                                            </div>
                                         </div>
+                                    </div> -->
                                     </div>
-                                  </div> -->
-                                </div>
-                                <div class="modal-header">
-                                    <!-- <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5> -->
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: white;">
-                                      <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body" style="background-color: black;">
-                                    <div class="container-fluid">
-                                      <div class="row">
-                                        <div class="col-md-8 embed-responsive embed-responsive-16by9 z-depth-1-half">
-                                            <!-- <img src="./assets/images/thumbnails/vishnu.jpg"> -->
-                                            <!-- <iframe class="embed-responsive-item" [src]="items.video | safe"
-                                                allowfullscreen></iframe> -->
-                                                <video poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline="playsinline" autoplay="autoplay" [muted]="'muted'" loop="loop">
-                                                    <source src="https://res.cloudinary.com/kaushalshah1307/video/upload/v1596276202/Website_reel_8M_cniufq.mp4" type="video/mp4">
-                                                  </video>
+                                    <!-- <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: white;">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div> -->
+                                    <div class="modal-body" style="background-color: black;">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: white;">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-md-8 embed-responsive embed-responsive-16by9 z-depth-1-half">
+                                                <!-- <img src="./assets/images/thumbnails/vishnu.jpg"> -->
+                                                <!-- <iframe [src]="items.video | safe"
+                                                    allowfullscreen></iframe> -->
+                                                    <video poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline="playsinline" autoplay="autoplay" [muted]="'muted'" loop="loop">
+                                                        <source src="https://res.cloudinary.com/kaushalshah1307/video/upload/v1596276202/Website_reel_8M_cniufq.mp4" type="video/mp4">
+                                                    </video>
+                                            </div>
+                                            <div class="col-md-4 ml-auto">
+                                                <p>Lorem ipsum dolor sit amet, no probo habeo virtute per, atqui sensibus erroribus vim id. Duis salutandi molestiae vel ei. Ea hinc nostro ocurreret nec. 
+                                                    Ad per equidem scripserit, vis in sale eleifend patrioque, assum nonumy an quo. Ius case oblique eu.</p>
+                                                <p>Docendi evertitur vituperata per at. Timeam salutatus reprehendunt duo id, equidem fabulas iracundia mei an. 
+                                                    Sit virtute cotidieque ea, ex cum fuisset copiosae repudiandae. Sit ut civibus perpetua dissentias. Sit meis interpretaris an, cibo posidonium consectetuer cum no, mel soleat volutpat ex.</p>
+                                            </div>
                                         </div>
-                                        <div class="col-md-4 ml-auto">
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-md-12">
                                             <p>Lorem ipsum dolor sit amet, no probo habeo virtute per, atqui sensibus erroribus vim id. Duis salutandi molestiae vel ei. Ea hinc nostro ocurreret nec. 
                                                 Ad per equidem scripserit, vis in sale eleifend patrioque, assum nonumy an quo. Ius case oblique eu.</p>
                                             <p>Docendi evertitur vituperata per at. Timeam salutatus reprehendunt duo id, equidem fabulas iracundia mei an. 
                                                 Sit virtute cotidieque ea, ex cum fuisset copiosae repudiandae. Sit ut civibus perpetua dissentias. Sit meis interpretaris an, cibo posidonium consectetuer cum no, mel soleat volutpat ex.</p>
-                                        </div>
-                                      </div>
-                                      <br>
-                                      <div class="row">
-                                        <div class="col-md-12">
-                                        <p>Lorem ipsum dolor sit amet, no probo habeo virtute per, atqui sensibus erroribus vim id. Duis salutandi molestiae vel ei. Ea hinc nostro ocurreret nec. 
-                                            Ad per equidem scripserit, vis in sale eleifend patrioque, assum nonumy an quo. Ius case oblique eu.</p>
-                                        <p>Docendi evertitur vituperata per at. Timeam salutatus reprehendunt duo id, equidem fabulas iracundia mei an. 
-                                            Sit virtute cotidieque ea, ex cum fuisset copiosae repudiandae. Sit ut civibus perpetua dissentias. Sit meis interpretaris an, cibo posidonium consectetuer cum no, mel soleat volutpat ex.</p>
-                                        </div>    
+                                            </div>    
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                                <img src="{{ items.cover }}">
+                                <!-- <div class="icons">
+                                    <a href="{{ items.video }}" data-type="iframe" class="openButton"
+                                        data-fancybox>
+                                        <i class="fas fa-video"></i>
+                                    </a>
+                                    <a href="{{ items.reference }}"
+                                        target="_blank" rel="noopener" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div> -->
+                                <div class="imageOverlay"></div>
                             </div>
-                            <img src="{{ items.cover }}">
-                            <div class="icons">
-                                <a href="{{ items.video }}" data-type="iframe" class="openButton"
-                                    data-fancybox>
-                                    <i class="fas fa-video"></i>
-                                </a>
-                                <a href="{{ items.reference }}"
-                                    target="_blank" rel="noopener" class="projectLink">
-                                    <i class="fa fa-link"></i>
-                                </a>
+                        </li>
+                    </ul>
+                    <!-- <ul class="row items">
+                        <li onclick="" class="short col-6 col-sm-4 col-md-4 col-lg-4">
+                            <div class="item">
+                                <img src="./assets/images/thumbnails/showreel.jpg">
+                                <div class="icons">
+                                    <a href="https://player.vimeo.com/video/336648260" data-type="iframe" class="openButton"
+                                        data-fancybox>
+                                        <i class="fas fa-video"></i>
+                                    </a>
+                                    <a href="https://vimeo.com/channels/friendsrepublic/336648260"
+                                        target="_blank" rel="noopener" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <div class="imageOverlay"></div>
                             </div>
-                            <div class="imageOverlay"></div>
-                        </div>
-                    </li>
-                </ul>
-                <!-- <ul class="row items">
-                    <li onclick="" class="short col-6 col-sm-4 col-md-4 col-lg-4">
-                        <div class="item">
-                            <img src="./assets/images/thumbnails/showreel.jpg">
-                            <div class="icons">
-                                <a href="https://player.vimeo.com/video/336648260" data-type="iframe" class="openButton"
-                                    data-fancybox>
-                                    <i class="fas fa-video"></i>
-                                </a>
-                                <a href="https://vimeo.com/channels/friendsrepublic/336648260"
-                                    target="_blank" rel="noopener" class="projectLink">
-                                    <i class="fa fa-link"></i>
-                                </a>
+                        </li>
+                        <li onclick="" class="doc col-6 col-sm-4 col-md-4 col-lg-4">
+                            <div class="item">
+                                <img src="./assets/images/thumbnails/vishnu.jpg">
+                                <div class="icons">
+                                    <a href="https://player.vimeo.com/video/286935698" data-type="iframe" class="openButton"
+                                        data-fancybox>
+                                        <i class="fas fa-video"></i>
+                                    </a>
+                                    <a href="https://vimeo.com/channels/friendsrepublic/286935698"
+                                        target="_blank" rel="noopener" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <div class="imageOverlay"></div>
                             </div>
-                            <div class="imageOverlay"></div>
-                        </div>
-                    </li>
-                    <li onclick="" class="doc col-6 col-sm-4 col-md-4 col-lg-4">
-                        <div class="item">
-                            <img src="./assets/images/thumbnails/vishnu.jpg">
-                            <div class="icons">
-                                <a href="https://player.vimeo.com/video/286935698" data-type="iframe" class="openButton"
-                                    data-fancybox>
-                                    <i class="fas fa-video"></i>
-                                </a>
-                                <a href="https://vimeo.com/channels/friendsrepublic/286935698"
-                                    target="_blank" rel="noopener" class="projectLink">
-                                    <i class="fa fa-link"></i>
-                                </a>
+                        </li>
+                        <li onclick="" class="after col-6 col-sm-4 col-md-4 col-lg-4">
+                            <div class="item">
+                                <img src="./assets/images/thumbnails/weekend.jpg">
+                                <div class="icons">
+                                    <a href="https://player.vimeo.com/video/308579389" data-type="iframe" class="openButton"
+                                        data-fancybox>
+                                        <i class="fas fa-video"></i>
+                                    </a>
+                                    <a href="https://vimeo.com/channels/friendsrepublic/308579389"
+                                        target="_blank" rel="noopener" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <div class="imageOverlay"></div>
                             </div>
-                            <div class="imageOverlay"></div>
-                        </div>
-                    </li>
-                    <li onclick="" class="after col-6 col-sm-4 col-md-4 col-lg-4">
-                        <div class="item">
-                            <img src="./assets/images/thumbnails/weekend.jpg">
-                            <div class="icons">
-                                <a href="https://player.vimeo.com/video/308579389" data-type="iframe" class="openButton"
-                                    data-fancybox>
-                                    <i class="fas fa-video"></i>
-                                </a>
-                                <a href="https://vimeo.com/channels/friendsrepublic/308579389"
-                                    target="_blank" rel="noopener" class="projectLink">
-                                    <i class="fa fa-link"></i>
-                                </a>
+                        </li>
+                        <li onclick="" class="short col-6 col-sm-4 col-md-4 col-lg-4">
+                            <div class="item">
+                                <img src="./assets/images/thumbnails/virdas.jpg">
+                                <div class="icons">
+                                    <a href="https://player.vimeo.com/video/285877576" data-type="iframe" class="openButton"
+                                        data-fancybox>
+                                        <i class="fas fa-video"></i>
+                                    </a>
+                                    <a href="https://vimeo.com/channels/friendsrepublic/285877576"
+                                        target="_blank" rel="noopener" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <div class="imageOverlay"></div>
                             </div>
-                            <div class="imageOverlay"></div>
-                        </div>
-                    </li>
-                    <li onclick="" class="short col-6 col-sm-4 col-md-4 col-lg-4">
-                        <div class="item">
-                            <img src="./assets/images/thumbnails/virdas.jpg">
-                            <div class="icons">
-                                <a href="https://player.vimeo.com/video/285877576" data-type="iframe" class="openButton"
-                                    data-fancybox>
-                                    <i class="fas fa-video"></i>
-                                </a>
-                                <a href="https://vimeo.com/channels/friendsrepublic/285877576"
-                                    target="_blank" rel="noopener" class="projectLink">
-                                    <i class="fa fa-link"></i>
-                                </a>
+                        </li>
+                        <li onclick="" class="short col-6 col-sm-4 col-md-4 col-lg-4">
+                            <div class="item">
+                                <img src="./assets/images/thumbnails/limbo.jpg">
+                                <div class="icons">
+                                    <a href="https://player.vimeo.com/video/304668531" data-type="iframe" class="openButton"
+                                        data-fancybox>
+                                        <i class="fas fa-video"></i>
+                                    </a>
+                                    <a href="https://vimeo.com/channels/friendsrepublic/304668531"
+                                        target="_blank" rel="noopener" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <div class="imageOverlay"></div>
                             </div>
-                            <div class="imageOverlay"></div>
-                        </div>
-                    </li>
-                    <li onclick="" class="short col-6 col-sm-4 col-md-4 col-lg-4">
-                        <div class="item">
-                            <img src="./assets/images/thumbnails/limbo.jpg">
-                            <div class="icons">
-                                <a href="https://player.vimeo.com/video/304668531" data-type="iframe" class="openButton"
-                                    data-fancybox>
-                                    <i class="fas fa-video"></i>
-                                </a>
-                                <a href="https://vimeo.com/channels/friendsrepublic/304668531"
-                                    target="_blank" rel="noopener" class="projectLink">
-                                    <i class="fa fa-link"></i>
-                                </a>
+                        </li>
+                        <li onclick="" class="short col-6 col-sm-4 col-md-4 col-lg-4">
+                            <div class="item">
+                                <img src="./assets/images/thumbnails/snap.jpg">
+                                <div class="icons">
+                                    <a href="https://player.vimeo.com/video/273166543" data-type="iframe" class="openButton"
+                                        data-fancybox>
+                                        <i class="fas fa-video"></i>
+                                    </a>
+                                    <a href="https://vimeo.com/channels/friendsrepublic/273166543"
+                                        target="_blank" rel="noopener" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <div class="imageOverlay"></div>
                             </div>
-                            <div class="imageOverlay"></div>
-                        </div>
-                    </li>
-                    <li onclick="" class="short col-6 col-sm-4 col-md-4 col-lg-4">
-                        <div class="item">
-                            <img src="./assets/images/thumbnails/snap.jpg">
-                            <div class="icons">
-                                <a href="https://player.vimeo.com/video/273166543" data-type="iframe" class="openButton"
-                                    data-fancybox>
-                                    <i class="fas fa-video"></i>
-                                </a>
-                                <a href="https://vimeo.com/channels/friendsrepublic/273166543"
-                                    target="_blank" rel="noopener" class="projectLink">
-                                    <i class="fa fa-link"></i>
-                                </a>
+                        </li>
+                        <li onclick="" class="others col-6 col-sm-4 col-md-4 col-lg-4">
+                            <div class="item">
+                                <img src="./assets/images/thumbnails/lulla.jpg">
+                                <div class="icons">
+                                    <a href="https://player.vimeo.com/video/273164625" data-type="iframe" class="openButton"
+                                        data-fancybox>
+                                        <i class="fas fa-video"></i>
+                                    </a>
+                                    <a href="https://vimeo.com/channels/friendsrepublic/273164625" target="_blank" rel="noopener" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <div class="imageOverlay"></div>
                             </div>
-                            <div class="imageOverlay"></div>
-                        </div>
-                    </li>
-                    <li onclick="" class="others col-6 col-sm-4 col-md-4 col-lg-4">
-                        <div class="item">
-                            <img src="./assets/images/thumbnails/lulla.jpg">
-                            <div class="icons">
-                                <a href="https://player.vimeo.com/video/273164625" data-type="iframe" class="openButton"
-                                    data-fancybox>
-                                    <i class="fas fa-video"></i>
-                                </a>
-                                <a href="https://vimeo.com/channels/friendsrepublic/273164625" target="_blank" rel="noopener" class="projectLink">
-                                    <i class="fa fa-link"></i>
-                                </a>
+                        </li>
+                        <li onclick="" class="short col-6 col-sm-4 col-md-4 col-lg-4">
+                            <div class="item">
+                                <img src="./assets/images/thumbnails/silver.jpg">
+                                <div class="icons">
+                                    <a href="https://player.vimeo.com/video/272413779" data-type="iframe" class="openButton"
+                                        data-fancybox>
+                                        <i class="fas fa-video"></i>
+                                    </a>
+                                    <a href="https://vimeo.com/channels/friendsrepublic/272413779"
+                                        target="_blank" rel="noopener" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <div class="imageOverlay"></div>
                             </div>
-                            <div class="imageOverlay"></div>
-                        </div>
-                    </li>
-                    <li onclick="" class="short col-6 col-sm-4 col-md-4 col-lg-4">
-                        <div class="item">
-                            <img src="./assets/images/thumbnails/silver.jpg">
-                            <div class="icons">
-                                <a href="https://player.vimeo.com/video/272413779" data-type="iframe" class="openButton"
-                                    data-fancybox>
-                                    <i class="fas fa-video"></i>
-                                </a>
-                                <a href="https://vimeo.com/channels/friendsrepublic/272413779"
-                                    target="_blank" rel="noopener" class="projectLink">
-                                    <i class="fa fa-link"></i>
-                                </a>
+                        </li>
+                        <li onclick="" class="doc col-6 col-sm-4 col-md-4 col-lg-4">
+                            <div class="item">
+                                <img src="./assets/images/thumbnails/anakha.jpg">
+                                <div class="icons">
+                                    <a href="https://player.vimeo.com/video/272207343" data-type="iframe" class="openButton"
+                                        data-fancybox>
+                                        <i class="fas fa-video"></i>
+                                    </a>
+                                    <a href="https://vimeo.com/channels/friendsrepublic/272207343"
+                                        target="_blank" rel="noopener" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <div class="imageOverlay"></div>
                             </div>
-                            <div class="imageOverlay"></div>
-                        </div>
-                    </li>
-                    <li onclick="" class="doc col-6 col-sm-4 col-md-4 col-lg-4">
-                        <div class="item">
-                            <img src="./assets/images/thumbnails/anakha.jpg">
-                            <div class="icons">
-                                <a href="https://player.vimeo.com/video/272207343" data-type="iframe" class="openButton"
-                                    data-fancybox>
-                                    <i class="fas fa-video"></i>
-                                </a>
-                                <a href="https://vimeo.com/channels/friendsrepublic/272207343"
-                                    target="_blank" rel="noopener" class="projectLink">
-                                    <i class="fa fa-link"></i>
-                                </a>
+                        </li>
+                        <li onclick="" class="short col-6 col-sm-4 col-md-4 col-lg-4">
+                            <div class="item">
+                                <img src="./assets/images/thumbnails/dark.jpg">
+                                <div class="icons">
+                                    <a href="https://player.vimeo.com/video/191550249" data-type="iframe" class="openButton"
+                                        data-fancybox>
+                                        <i class="fas fa-video"></i>
+                                    </a>
+                                    <a href="https://vimeo.com/channels/friendsrepublic/191550249"
+                                        target="_blank" rel="noopener" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <div class="imageOverlay"></div>
                             </div>
-                            <div class="imageOverlay"></div>
-                        </div>
-                    </li>
-                    <li onclick="" class="short col-6 col-sm-4 col-md-4 col-lg-4">
-                        <div class="item">
-                            <img src="./assets/images/thumbnails/dark.jpg">
-                            <div class="icons">
-                                <a href="https://player.vimeo.com/video/191550249" data-type="iframe" class="openButton"
-                                    data-fancybox>
-                                    <i class="fas fa-video"></i>
-                                </a>
-                                <a href="https://vimeo.com/channels/friendsrepublic/191550249"
-                                    target="_blank" rel="noopener" class="projectLink">
-                                    <i class="fa fa-link"></i>
-                                </a>
+                        </li>
+                        <li onclick="" class="short col-6 col-sm-4 col-md-4 col-lg-4">
+                            <div class="item">
+                                <img src="./assets/images/thumbnails/tabla.jpg">
+                                <div class="icons">
+                                    <a href="https://player.vimeo.com/video/196249288" data-type="iframe" class="openButton"
+                                        data-fancybox>
+                                        <i class="fas fa-video"></i>
+                                    </a>
+                                    <a href="https://vimeo.com/channels/friendsrepublic/196249288"
+                                        target="_blank" rel="noopener" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <div class="imageOverlay"></div>
                             </div>
-                            <div class="imageOverlay"></div>
-                        </div>
-                    </li>
-                    <li onclick="" class="short col-6 col-sm-4 col-md-4 col-lg-4">
-                        <div class="item">
-                            <img src="./assets/images/thumbnails/tabla.jpg">
-                            <div class="icons">
-                                <a href="https://player.vimeo.com/video/196249288" data-type="iframe" class="openButton"
-                                    data-fancybox>
-                                    <i class="fas fa-video"></i>
-                                </a>
-                                <a href="https://vimeo.com/channels/friendsrepublic/196249288"
-                                    target="_blank" rel="noopener" class="projectLink">
-                                    <i class="fa fa-link"></i>
-                                </a>
+                        </li>
+                        <li onclick="" class="web col-6 col-sm-4 col-md-4 col-lg-4">
+                            <div class="item">
+                                <img src="./assets/images/thumbnails/mj.jpg">
+                                <div class="icons">
+                                <a href="https://player.vimeo.com/video/203987032" data-type="iframe" class="openButton"
+                                        data-fancybox>
+                                        <i class="fas fa-video"></i>
+                                    </a>
+                                    <a href="https://vimeo.com/channels/friendsrepublic/203987032"
+                                        target="_blank" rel="noopener" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <div class="imageOverlay"></div>
                             </div>
-                            <div class="imageOverlay"></div>
-                        </div>
-                    </li>
-                    <li onclick="" class="web col-6 col-sm-4 col-md-4 col-lg-4">
-                        <div class="item">
-                            <img src="./assets/images/thumbnails/mj.jpg">
-                            <div class="icons">
-                               <a href="https://player.vimeo.com/video/203987032" data-type="iframe" class="openButton"
-                                    data-fancybox>
-                                    <i class="fas fa-video"></i>
-                                </a>
-                                <a href="https://vimeo.com/channels/friendsrepublic/203987032"
-                                    target="_blank" rel="noopener" class="projectLink">
-                                    <i class="fa fa-link"></i>
-                                </a>
+                        </li>
+                        <li onclick="" class="web col-6 col-sm-4 col-md-4 col-lg-4">
+                            <div class="item">
+                                <img src="./assets/images/thumbnails/bside.jpg">
+                                <div class="icons">
+                                    <a href="https://player.vimeo.com/video/367668768" data-type="iframe" class="openButton"
+                                        data-fancybox>
+                                        <i class="fas fa-video"></i>
+                                    </a>
+                                    <a href="https://vimeo.com/channels/friendsrepublic/367668768"
+                                        target="_blank" rel="noopener" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <div class="imageOverlay"></div>
                             </div>
-                            <div class="imageOverlay"></div>
-                        </div>
-                    </li>
-                    <li onclick="" class="web col-6 col-sm-4 col-md-4 col-lg-4">
-                        <div class="item">
-                            <img src="./assets/images/thumbnails/bside.jpg">
-                            <div class="icons">
-                                <a href="https://player.vimeo.com/video/367668768" data-type="iframe" class="openButton"
-                                    data-fancybox>
-                                    <i class="fas fa-video"></i>
-                                </a>
-                                <a href="https://vimeo.com/channels/friendsrepublic/367668768"
-                                    target="_blank" rel="noopener" class="projectLink">
-                                    <i class="fa fa-link"></i>
-                                </a>
-                            </div>
-                            <div class="imageOverlay"></div>
-                        </div>
-                    </li>
-                </ul> -->
+                        </li>
+                    </ul> -->
+                </div>
             </div>
         </div>
     </div>
