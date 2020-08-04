@@ -291,3 +291,8 @@
   margin-right: 0;
   margin-left: 0;
 }
+
+.image-text {
+  bottom: 15%;
+  position: absolute;
+}

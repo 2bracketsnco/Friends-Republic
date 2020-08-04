@@ -82,6 +82,7 @@
     -webkit-transition: background-color 0.25s ease-in-out;
     transition: background-color 0.25s ease-in-out;
 }
+  
 img, figure {
     max-width: 100%;
 }

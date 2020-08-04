@@ -103,7 +103,7 @@ $(document).ready(function () {
     }
 
     $(document).ready(function(){
-        $("a").on('click', function(event) {
+        $(".ct-btn-scroll").on('click', function(event) {
           if (this.hash !== "") {
             event.preventDefault();
             var hash = this.hash;
