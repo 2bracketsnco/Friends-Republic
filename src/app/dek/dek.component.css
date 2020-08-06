@@ -6,7 +6,7 @@
     position: absolute;
     top: 0;
     z-index: 3;
-    background-color: rgba(0, 0, 0, 0.4);
+    /* background-color: rgba(0, 0, 0, 0.4); */
   }
   
   .slides-navigation {

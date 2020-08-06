@@ -86,7 +86,7 @@ $(document).ready(function () {
     });
 
     const port = $("#portfolio");
-    const portTop = port.offset().top - 50;
+    const portTop = port.offset().top - 90;
 
     $(window).on("scroll", stickyLogo);
 
@@ -108,7 +108,7 @@ $(document).ready(function () {
             event.preventDefault();
             var hash = this.hash;
             $('html, body').animate({
-              scrollTop: $(hash).offset().top
+              scrollTop: $(hash).offset().top - 70
             }, 800, function(){
               //window.location.hash = hash;
             });
