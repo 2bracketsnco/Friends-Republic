@@ -108,7 +108,7 @@ $(document).ready(function () {
             event.preventDefault();
             var hash = this.hash;
             $('html, body').animate({
-              scrollTop: $(hash).offset().top - 70
+              scrollTop: $(hash).offset().top - 73
             }, 800, function(){
               //window.location.hash = hash;
             });
