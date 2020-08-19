@@ -1,121 +1,63 @@
-<div id="portfolio" class="statsSection no-gutters">
-    <div class="slides-container">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="heading">
-                    <!-- <hr class="line" width="40%"> -->
-                    <!-- <h2>WORK</h2> -->
+<div id="portfolio"
+  class="statsSection no-gutters">
+  <div class="slides-container">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="itemsContainer">
+          <ul class="row items">
+            <li (click)="setSelectedItem(items)"
+              class="{{ items.class }} col-12 col-sm-12 col-md-12 col-lg-4"
+              data-toggle="modal"
+              data-target="#myModal"
+              *ngFor="let items of project">
+              <div class="item">
+                <img src="{{ items.cover }}">
+                <div class="imageOverlay">
+                  <div class="video-background-content container h-100">
+                    <div class="d-flex h-100 text-center align-items-center">
+                      <div class="w-100 text-white image-text">
+                        <!-- <h1 class="display-4">Bootstrap video background</h1> -->
+                        <p class="lead mb-0">B Side</p>
+                        <p class="lead">A Documentary Series</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <!-- <div class="filter">
-                    <ul id="filters">
-                        <li><a href="#" data-filter="*" class="current">ALL</a></li>
-                        <li><a href="#" class="filter-apps" data-filter=".short">SHORT FILMS</a></li>
-                        <li><a href="#" class="filter-eb" data-filter=".web">WEB SERIES</a></li>
-                        <li><a href="#" class="filter-roms" data-filter=".doc">DOCUMENTARIES</a></li>
-                        <li><a href="#" class="filter-websites" data-filter=".after">AFTER MOVIES</a></li>
-                        <li><a href="#" class="filter-other" data-filter=".others">OTHERS</a></li>
-                    </ul>
-                </div> -->
-                <div class="itemsContainer">
-                    <ul class="row items">
-                        <li onclick="" class="{{ items.class }} col-12 col-sm-12 col-md-12 col-lg-4" data-toggle="modal" data-target="#myModal" *ngFor="let items of project">
-                            <div class="item">
-                                <div class="modal fade no-gutters" id="myModal" role="dialog">
-                                    <div class="modal-dialog" style="display: none;">
-                                    <!-- <div class="modal-content">
-                                        <div class="modal-body">
-                                            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                                                <iframe class="embed-responsive-item" [src]="items.video | safe"
-                                                allowfullscreen></iframe>
-                                            </div>
-                                        </div>
-                                    </div> -->
-                                    </div>
-                                    <!-- <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: white;">
-                                        <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div> -->
-                                    <div class="modal-body" style="background-color: black; min-height: -webkit-fill-available;">
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: white;">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                        <div class="container-fluid">
-                                        <div class="row">
-                                            <div class="col-md-8 embed-responsive embed-responsive-16by9 z-depth-1-half">
-                                                <!-- <img src="./assets/images/thumbnails/vishnu.jpg"> -->
-                                                <iframe [src]="items.video | safe"
-                                                    allowfullscreen></iframe>
-                                                    <!-- <video poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline="playsinline" autoplay="autoplay" [muted]="'muted'" loop="loop">
-                                                        <source src="https://res.cloudinary.com/kaushalshah1307/video/upload/v1596276202/Website_reel_8M_cniufq.mp4" type="video/mp4">
-                                                    </video> -->
-                                            </div>
-                                            <div class="col-md-4 ml-auto">
-                                                {{ items.dek }}
-                                                <p>Lorem ipsum dolor sit amet, no probo habeo virtute per, atqui sensibus erroribus vim id. Duis salutandi molestiae vel ei. Ea hinc nostro ocurreret nec. 
-                                                    Ad per equidem scripserit, vis in sale eleifend patrioque, assum nonumy an quo. Ius case oblique eu.</p>
-                                                    <br>
-                                                <p><a class="asd" href="#">Link to the video location</a></p>
-                                            </div>
-                                        </div>
-                                        <br>
-                                        <!-- <div class="row">
-                                            <div class="col-md-12">
-                                            <p>Lorem ipsum dolor sit amet, no probo habeo virtute per, atqui sensibus erroribus vim id. Duis salutandi molestiae vel ei. Ea hinc nostro ocurreret nec. 
-                                                Ad per equidem scripserit, vis in sale eleifend patrioque, assum nonumy an quo. Ius case oblique eu.</p>
-                                            <p>Docendi evertitur vituperata per at. Timeam salutatus reprehendunt duo id, equidem fabulas iracundia mei an. 
-                                                Sit virtute cotidieque ea, ex cum fuisset copiosae repudiandae. Sit ut civibus perpetua dissentias. Sit meis interpretaris an, cibo posidonium consectetuer cum no, mel soleat volutpat ex.</p>
-                                            </div>    
-                                            </div> -->
-                                        </div>
-                                    </div>
-                                </div>
-                                <img src="{{ items.cover }}">
-                                <!-- <div class="icons">
-                                    <a href="{{ items.video }}" data-type="iframe" class="openButton"
-                                        data-fancybox>
-                                        <i class="fas fa-video"></i>
-                                    </a>
-                                    <a href="{{ items.reference }}"
-                                        target="_blank" rel="noopener" class="projectLink">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div> -->
-                                <div class="imageOverlay">
-                                    <div class="video-background-content container h-100">
-                                      <div class="d-flex h-100 text-center align-items-center">
-                                        <div class="w-100 text-white image-text">
-                                          <!-- <h1 class="display-4">Bootstrap video background</h1> -->
-                                          <p class="lead mb-0">B Side</p>
-                                          <p class="lead">A Documentary Series</p>
-                                        </div>
-                                      </div>
-                                    </div>  
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                    <!-- <ul class="row items">
-                        <li onclick="" class="col-12 col-sm-12 col-md-12 col-lg-4" data-toggle="modal" data-target="#myModal" *ngFor="let items of project">
-                            <div class="item">
-                                <img src="./assets/images/thumbnails/showreel.jpg">
-                                <div class="icons">
-                                    <a href="https://player.vimeo.com/video/336648260" data-type="iframe" class="openButton"
-                                        data-fancybox>
-                                        <i class="fas fa-video"></i>
-                                    </a>
-                                    <a href="https://vimeo.com/channels/friendsrepublic/336648260"
-                                        target="_blank" rel="noopener" class="projectLink">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-                                <div class="imageOverlay"></div>
-                            </div>
-                        </li>
-                    </ul> -->
+              </div>
+            </li>
+          </ul>
+          <div *ngIf="showDialog"
+            class="modal no-gutters"
+            id="myModal"
+            role="dialog">
+            <div class="modal-body"
+              style="background-color: black; min-height: -webkit-fill-available;">
+              <button type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+                (click)="showDialog = false;"
+                style="color: white;">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="container-fluid h-100">
+                <div class="row justify-content-center align-self-center">
+                  <div class="col-md-8 ml-auto embed-responsive embed-responsive-16by9 z-depth-1-half">
+                    <iframe [src]="selectedItem?.video | safe"
+                      allowfullscreen></iframe>
+                  </div>
+                    <div class="col-md-4 ml-auto">
+                    <p>Lorem ipsum dolor sit amet, no probo habeo virtute per, atqui sensibus erroribus vim id. Duis salutandi molestiae vel ei. Ea hinc nostro ocurreret nec.
+                      Ad per equidem scripserit, vis in sale eleifend patrioque, assum nonumy an quo. Ius case oblique eu.</p>
+                    <br>
+                    <p><a class="asd"
+                        href="#">Link to the video location</a></p>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
+  </div>
