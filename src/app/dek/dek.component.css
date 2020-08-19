@@ -86,3 +86,9 @@
 img, figure {
     max-width: 100%;
 }
+
+@media screen and (min-width: 992px) {
+  .ct-btn-scroll {
+    bottom: 10%;
+  }
+}
