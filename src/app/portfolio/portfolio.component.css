@@ -296,3 +296,24 @@
   bottom: 15%;
   position: absolute;
 }
+
+.the-modal {
+  background-color: black; 
+  min-height: -webkit-fill-available;
+}
+
+.modal-header {
+  display: flex;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  border-bottom: hidden;
+  border-top-left-radius: .3rem;
+  border-top-right-radius: .3rem;
+}
+
+.close {
+  font-size: 2rem;
+}
