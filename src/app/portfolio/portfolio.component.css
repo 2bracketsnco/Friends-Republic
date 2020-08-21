@@ -317,3 +317,8 @@
 .close {
   font-size: 2rem;
 }
+
+.close:focus {
+  outline: none;
+  box-shadow: none;
+}
