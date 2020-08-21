@@ -293,7 +293,7 @@
 }
 
 .image-text {
-  bottom: 15%;
+  /* bottom: 15%; */
   position: absolute;
 }
 
@@ -321,4 +321,13 @@
 .close:focus {
   outline: none;
   box-shadow: none;
+}
+
+.lead {
+  font-size: 1.25rem;
+}
+
+.sub-lead {
+  font-size: 1.00rem;
+  padding-top: 3px;
 }
