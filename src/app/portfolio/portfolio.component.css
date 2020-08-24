@@ -325,9 +325,22 @@
 
 .lead {
   font-size: 1.25rem;
+  color: goldenrod;
 }
 
 .sub-lead {
   font-size: 1.00rem;
   padding-top: 3px;
+}
+
+.project-title {
+  color: goldenrod;
+}
+
+p.project-meta {
+  margin-bottom: 0rem;
+}
+
+.meta {
+  color: goldenrod;
 }
