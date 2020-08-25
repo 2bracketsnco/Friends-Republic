@@ -345,7 +345,7 @@ p.project-meta {
   color: goldenrod;
 }
 
-@media screen and (min-width: 993px) {
+@media screen and (min-width: 1440px) {
   .col-md-4 {
     padding-left: 100px;
     padding-right: 100px;
