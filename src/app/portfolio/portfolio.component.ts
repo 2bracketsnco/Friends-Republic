@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class PortfolioComponent implements OnInit {
 
   project = [
-    { id: '1', class: 'short', cover: './assets/images/thumbnails/Vishnu-Poster-(Portrait).jpg', video: 'https://player.vimeo.com/video/336648260?byline=0&title=0&portrait=0', reference: 'https://vimeo.com/channels/friendsrepublic/336648260', dek: 'one' },
-    { id: '2', class: 'doc', cover: './assets/images/thumbnails/Asian-Paints.jpg', video: 'https://player.vimeo.com/video/286935698?byline=0&title=0&portrait=0', reference: 'https://vimeo.com/channels/friendsrepublic/286935698', dek: 'two'  },
+    { id: '1', class: 'short', cover: './assets/images/thumbnails/Vishnu-Poster-(Portrait).jpg', video: 'https://player.vimeo.com/video/336648260?byline=0&title=0&portrait=0&control=0', reference: 'https://vimeo.com/channels/friendsrepublic/336648260', dek: 'one' },
+    { id: '2', class: 'doc', cover: './assets/images/thumbnails/Asian-Paints.jpg', video: 'https://www.youtube.com/embed/Bx9EeWRNFw8?rel=0&modestbranding=0&autohide=1&showinfo=0&controls=0', reference: 'https://vimeo.com/channels/friendsrepublic/286935698', dek: 'two'  },
     { id: '3', class: 'web', cover: './assets/images/thumbnails/image_promo-2.jpg', video: 'https://player.vimeo.com/video/367668768?byline=0&title=0&portrait=0', reference: 'https://vimeo.com/channels/friendsrepublic/367668768', dek: 'three'  },
     { id: '4', class: 'short', cover: './assets/images/thumbnails/B_side-Poster-1.jpg', video: 'https://player.vimeo.com/video/285877576?byline=0&title=0&portrait=0', reference: 'https://vimeo.com/channels/friendsrepublic/285877576', dek: 'four'  },
     { id: '5', class: 'after', cover: './assets/images/thumbnails/Hipcouch.png', video: 'https://player.vimeo.com/video/308579389?byline=0&title=0&portrait=0', reference: 'https://vimeo.com/channels/friendsrepublic/308579389', dek: 'five'  },
