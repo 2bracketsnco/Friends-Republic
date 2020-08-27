@@ -1,0 +1,7 @@
+<label>
+    Email:
+    <input type="text" [formControl]="emailControl">
+  </label>
+  <p>
+    <button type="submit" (click)="submit()" [disabled]="!emailControl.valid">Submit</button>
+  </p>
