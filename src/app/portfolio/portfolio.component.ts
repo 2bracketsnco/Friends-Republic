@@ -57,7 +57,7 @@ export class PortfolioComponent implements OnInit {
       lead: 'VISHNU', 
       byline: 'Documentary', 
       class: 'short', 
-      cover: './assets/images/thumbnails/Vishnu-Poster-(Portrait).jpg', 
+      cover: './assets/images/thumbnails/hetan.jpg', 
       video: 'https://www.youtube.com/embed/V1kJVCuSSSA?controls=0&modestbranding=1', 
       reference: 'https://vimeo.com/channels/friendsrepublic/273166543', 
       dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.` 
