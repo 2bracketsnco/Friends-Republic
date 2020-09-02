@@ -12,7 +12,7 @@ export class PortfolioComponent implements OnInit {
       lead: 'HIPCOUCH', 
       byline: 'Commercial', 
       class: 'short', 
-      cover: './assets/images/thumbnails/Hipcouch.png', 
+      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044058/Friends%27%20Republic/Assets/fr_Hipcouch.png', 
       video: 'https://player.vimeo.com/video/384870257?byline=0&title=0&portrait=0&control=0', 
       reference: 'https://vimeo.com/channels/friendsrepublic/336648260', 
       dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.` 
@@ -21,7 +21,7 @@ export class PortfolioComponent implements OnInit {
       lead: 'NILAYA', 
       byline: 'Commercial', 
       class: 'doc', 
-      cover: './assets/images/thumbnails/Asian-Paints.jpg', 
+      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044050/Friends%27%20Republic/Assets/fr_Asian-Paints.jpg', 
       video: 'https://www.youtube.com/embed/Bx9EeWRNFw8?controls=0&modestbranding=1', 
       reference: 'https://vimeo.com/channels/friendsrepublic/286935698', 
       dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.` 
@@ -30,7 +30,7 @@ export class PortfolioComponent implements OnInit {
       lead: 'BROKEN DREAMS', 
       byline: 'Music Video', 
       class: 'web', 
-      cover: './assets/images/thumbnails/image_promo-2.jpg', 
+      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044051/Friends%27%20Republic/Assets/fr_broken-dreams.jpg', 
       video: 'https://player.vimeo.com/video/400296233?byline=0&title=0&portrait=0', 
       reference: 'https://vimeo.com/channels/friendsrepublic/367668768', 
       dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.` 
@@ -39,7 +39,7 @@ export class PortfolioComponent implements OnInit {
       lead: 'ZAKIR KHAN', 
       byline: 'Tour Recap', 
       class: 'short', 
-      cover: './assets/images/thumbnails/Zakir-Still.jpg', 
+      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044053/Friends%27%20Republic/Assets/fr_Zakir-Still.jpg', 
       video: 'https://player.vimeo.com/video/349332857?byline=0&title=0&portrait=0', 
       reference: 'https://vimeo.com/channels/friendsrepublic/285877576', 
       dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.` 
@@ -48,7 +48,7 @@ export class PortfolioComponent implements OnInit {
       lead: 'B Side: EP/01', 
       byline: 'Music Documentary Series', 
       class: 'after', 
-      cover: './assets/images/thumbnails/B_side-Poster-1.jpg', 
+      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044050/Friends%27%20Republic/Assets/fr_B_side-Poster-1.jpg', 
       video: 'https://www.youtube.com/embed/PAY4_tBq7rw?controls=0&modestbranding=1', 
       reference: 'https://vimeo.com/channels/friendsrepublic/308579389', 
       dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.` 
@@ -66,7 +66,7 @@ export class PortfolioComponent implements OnInit {
       lead: 'PLAYGROUND', 
       byline: 'Music Video', 
       class: 'others', 
-      cover: './assets/images/thumbnails/play-ground.jpg', 
+      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044054/Friends%27%20Republic/Assets/fr_play-ground.jpg', 
       video: 'https://player.vimeo.com/video/343813921?byline=0&title=0&portrait=0', 
       reference: 'https://vimeo.com/channels/friendsrepublic/273164625', 
       dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.` 
@@ -75,7 +75,7 @@ export class PortfolioComponent implements OnInit {
       lead: 'VIR DAS', 
       byline: 'Tour Recap', 
       class: 'short', 
-      cover: './assets/images/thumbnails/Vir-Das.jpg', 
+      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044054/Friends%27%20Republic/Assets/fr_Vir-Das.jpg', 
       video: 'https://player.vimeo.com/video/285877576?byline=0&title=0&portrait=0', 
       reference: 'https://vimeo.com/channels/friendsrepublic/272413779', 
       dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.` 
@@ -84,7 +84,7 @@ export class PortfolioComponent implements OnInit {
       lead: 'LIMBO', 
       byline: 'Short', 
       class: 'web', 
-      cover: './assets/images/thumbnails/Limbo-Still.jpg', 
+      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044051/Friends%27%20Republic/Assets/fr_Limbo-Still.jpg', 
       video: 'https://www.youtube.com/embed/aYE_fNdvPD0?controls=0&modestbranding=1', 
       reference: 'https://vimeo.com/channels/friendsrepublic/367668768', 
       dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.` 
@@ -93,7 +93,7 @@ export class PortfolioComponent implements OnInit {
       lead: 'SNAP', 
       byline: 'Horror Short', 
       class: 'web', 
-      cover: './assets/images/thumbnails/Snap.jpg', 
+      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044057/Friends%27%20Republic/Assets/fr_Snap.jpg', 
       video: 'https://www.youtube.com/embed/g3Qz7T51jR0?controls=0&modestbranding=1', 
       reference: 'https://vimeo.com/channels/friendsrepublic/367668768', 
       dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.` 
@@ -102,7 +102,7 @@ export class PortfolioComponent implements OnInit {
       lead: 'AAKASH GUPTA', 
       byline: 'Tour Recap', 
       class: 'web', 
-      cover: './assets/images/thumbnails/Aakash-Gupta.jpg', 
+      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044050/Friends%27%20Republic/Assets/fr_Aakash-Gupta.jpg', 
       video: 'https://www.youtube.com/embed/nN2XSigfJd0?controls=0&modestbranding=1', 
       reference: 'https://vimeo.com/channels/friendsrepublic/367668768', 
       dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.` 
@@ -120,7 +120,7 @@ export class PortfolioComponent implements OnInit {
       lead: 'WEEKEND WINDOW', 
       byline: 'Aftermovie', 
       class: 'web', 
-      cover: './assets/images/thumbnails/WW-2018.jpg', 
+      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044053/Friends%27%20Republic/Assets/fr_WW-2018.jpg', 
       video: 'https://player.vimeo.com/video/308579389?byline=0&title=0&portrait=0', 
       reference: 'https://vimeo.com/channels/friendsrepublic/367668768', 
       dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.` 
@@ -129,7 +129,7 @@ export class PortfolioComponent implements OnInit {
       lead: 'LULLA CLASSES', 
       byline: 'Commercial', 
       class: 'web', 
-      cover: './assets/images/thumbnails/vlcsnap-2020-08-07-13h09m31s810.png', 
+      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044053/Friends%27%20Republic/Assets/fr_lula.png', 
       video: 'https://player.vimeo.com/video/273164625?byline=0&title=0&portrait=0', 
       reference: 'https://vimeo.com/channels/friendsrepublic/367668768', 
       dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.` 
