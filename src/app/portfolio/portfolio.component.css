@@ -350,4 +350,14 @@ p.project-meta {
     padding-left: 100px;
     padding-right: 100px;
   }
+
+  .project-description {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .col-md-4 {
+    margin-top: 10px;
+  }
 }
