@@ -11,6 +11,7 @@ import { TeamComponent } from './team/team.component';
 import { ContactComponent } from './contact/contact.component';
 import { SafePipe } from './safe.pipe';
 import { NavComponent } from './nav/nav.component';
+import { FeatureComponent } from './feature/feature.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { NavComponent } from './nav/nav.component';
     TeamComponent,
     ContactComponent,
     SafePipe,
-    NavComponent
+    NavComponent,
+    FeatureComponent
   ],
   imports: [
     BrowserModule,

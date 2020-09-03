@@ -335,6 +335,12 @@
 
 .project-title {
   color: goldenrod;
+  font-size: 1.7  5rem;
+}
+
+.project-byline {
+  font-size: 0.80rem;
+  /* padding-top: 3px; */
 }
 
 p.project-meta {
