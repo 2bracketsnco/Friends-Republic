@@ -10,3 +10,9 @@
   .copyrightSection p {
     margin: 0;
   }
+
+  @media screen and (max-width: 576px) {
+    .copyrightSection {
+      font-size: x-small;
+    }
+  }
