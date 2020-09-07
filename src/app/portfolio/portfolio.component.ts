@@ -12,7 +12,7 @@ export class PortfolioComponent implements OnInit {
       lead: 'HIPCOUCH', 
       byline: 'Commercial', 
       class: 'short', 
-      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044058/Friends%27%20Republic/Assets/fr_Hipcouch.png', 
+      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599458624/Friends%27%20Republic/Assets/fr_hipcouch_kaveer.jpg', 
       video: 'https://player.vimeo.com/video/384870257?byline=0&title=0&portrait=0&control=0', 
       reference: 'https://vimeo.com/channels/friendsrepublic/336648260', 
       dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.` 
@@ -30,18 +30,9 @@ export class PortfolioComponent implements OnInit {
       lead: 'BROKEN DREAMS', 
       byline: 'Music Video', 
       class: 'web', 
-      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044051/Friends%27%20Republic/Assets/fr_broken-dreams.jpg', 
+      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599458624/Friends%27%20Republic/Assets/fr_broken_dreams.jpg', 
       video: 'https://player.vimeo.com/video/400296233?byline=0&title=0&portrait=0', 
       reference: 'https://vimeo.com/channels/friendsrepublic/367668768', 
-      dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.` 
-    },
-    { 
-      lead: 'ZAKIR KHAN', 
-      byline: 'Tour Recap', 
-      class: 'short', 
-      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044053/Friends%27%20Republic/Assets/fr_Zakir-Still.jpg', 
-      video: 'https://player.vimeo.com/video/349332857?byline=0&title=0&portrait=0', 
-      reference: 'https://vimeo.com/channels/friendsrepublic/285877576', 
       dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.` 
     },
     { 
@@ -54,10 +45,19 @@ export class PortfolioComponent implements OnInit {
       dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.` 
     },
     { 
+      lead: 'ZAKIR KHAN', 
+      byline: 'Tour Recap', 
+      class: 'short', 
+      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044053/Friends%27%20Republic/Assets/fr_Zakir-Still.jpg', 
+      video: 'https://player.vimeo.com/video/349332857?byline=0&title=0&portrait=0', 
+      reference: 'https://vimeo.com/channels/friendsrepublic/285877576', 
+      dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.` 
+    },
+    { 
       lead: 'VISHNU', 
       byline: 'Documentary', 
       class: 'short', 
-      cover: './assets/images/thumbnails/Vishnu-Poster-(Portrait).jpg', 
+      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599458624/Friends%27%20Republic/Assets/fr_Vishnu.jpg', 
       video: 'https://www.youtube.com/embed/V1kJVCuSSSA?controls=0&modestbranding=1', 
       reference: 'https://vimeo.com/channels/friendsrepublic/273166543', 
       dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.` 
@@ -111,7 +111,7 @@ export class PortfolioComponent implements OnInit {
       lead: 'UNDER THE SUN', 
       byline: 'B Side Live Session', 
       class: 'web', 
-      cover: './assets/images/thumbnails/chinmayedit.jpg', 
+      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599458625/Friends%27%20Republic/Assets/fr_under_the_sun.png', 
       video: 'https://www.youtube.com/embed/vBgkuYXLTPo?controls=0&modestbranding=1', 
       reference: 'https://vimeo.com/channels/friendsrepublic/367668768', 
       dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.` 
