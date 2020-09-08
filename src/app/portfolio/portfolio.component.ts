@@ -19,7 +19,7 @@ export class PortfolioComponent implements OnInit {
     },
     { 
       lead: 'NILAYA', 
-      byline: 'Commercial', 
+      byline: 'Commercial',
       class: 'doc', 
       cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044050/Friends%27%20Republic/Assets/fr_Asian-Paints.jpg', 
       video: 'https://www.youtube.com/embed/Bx9EeWRNFw8?controls=0&modestbranding=1', 
@@ -33,7 +33,7 @@ export class PortfolioComponent implements OnInit {
       cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599458624/Friends%27%20Republic/Assets/fr_broken_dreams.jpg', 
       video: 'https://player.vimeo.com/video/400296233?byline=0&title=0&portrait=0', 
       reference: 'https://vimeo.com/channels/friendsrepublic/367668768', 
-      dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.` 
+      dek: `An introvert teenage girl attempts to have a cool haircut for a special occasion - only to have her dreams shattered. ‘Broken Dreams’ is a story about her acceptance with the situation and ultimately learning the fact that happiness is a choice.` 
     },
     { 
       lead: 'B Side: EP/01', 
