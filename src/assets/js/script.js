@@ -33,7 +33,7 @@ $(document).ready(function () {
 
     // });
 
-    var skillsTopOffset = $(".skillsSection").offset().top;
+    // var skillsTopOffset = $(".skillsSection").offset().top;
     var statsTopOffset = $(".statsSection").offset().top;
     var countUpFinished = false;
 
