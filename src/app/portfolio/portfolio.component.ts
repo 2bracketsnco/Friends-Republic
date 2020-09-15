@@ -15,7 +15,7 @@ export class PortfolioComponent implements OnInit {
       cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599458624/Friends%27%20Republic/Assets/fr_hipcouch_kaveer.jpg', 
       video: 'https://player.vimeo.com/video/384870257?byline=0&title=0&portrait=0&control=0', 
       reference: 'https://vimeo.com/channels/friendsrepublic/336648260', 
-      dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.` 
+      dek: `One-minute explainer for Hipcouch, an interior design company based in Mumbai.` 
     },
     { 
       lead: 'NILAYA', 
@@ -24,7 +24,7 @@ export class PortfolioComponent implements OnInit {
       cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044050/Friends%27%20Republic/Assets/fr_Asian-Paints.jpg', 
       video: 'https://www.youtube.com/embed/Bx9EeWRNFw8?controls=0&modestbranding=1', 
       reference: 'https://vimeo.com/channels/friendsrepublic/286935698', 
-      dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.` 
+      dek: `Launch film for ‘Wallpaper of the year 2020’- Asian Paints Nilaya x Nicobar Design Studio.` 
     },
     { 
       lead: 'BROKEN DREAMS', 
@@ -33,7 +33,14 @@ export class PortfolioComponent implements OnInit {
       cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599458624/Friends%27%20Republic/Assets/fr_broken_dreams.jpg', 
       video: 'https://player.vimeo.com/video/400296233?byline=0&title=0&portrait=0', 
       reference: 'https://vimeo.com/channels/friendsrepublic/367668768', 
-      dek: `An introvert teenage girl attempts to have a cool haircut for a special occasion - only to have her dreams shattered. ‘Broken Dreams’ is a story about her acceptance with the situation and ultimately learning the fact that happiness is a choice.` 
+      dek: `An introvert teenage girl attempts to have a cool haircut for a special occasion - only to have her dreams shattered. ‘Broken Dreams’ is a story about her acceptance with the situation and ultimately learning the fact that happiness is a choice.`,
+      projectCredits: [
+        'Directed & Edited by: Hetan Shah',
+        'Cinematography by: Chinmay Deshpande',
+        'Cast: Anikesa Dhing, Sasha Kalrani, Vaidehi Gohil',
+        `Produced by: Friends' Republic`
+      ],
+      artistCredits: `Broken Dreams by Rushikesh Nene is available to listen on Spotify.`
     },
     { 
       lead: 'B Side: EP/01', 
@@ -51,7 +58,7 @@ export class PortfolioComponent implements OnInit {
       cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044053/Friends%27%20Republic/Assets/fr_Zakir-Still.jpg', 
       video: 'https://player.vimeo.com/video/349332857?byline=0&title=0&portrait=0', 
       reference: 'https://vimeo.com/channels/friendsrepublic/285877576', 
-      dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.` 
+      dek: `Recap of Zakir's Gujarat tour with his comedy special 'Kaksha Gyarvi'.` 
     },
     { 
       lead: 'VISHNU', 
@@ -60,7 +67,7 @@ export class PortfolioComponent implements OnInit {
       cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599458624/Friends%27%20Republic/Assets/fr_Vishnu.jpg', 
       video: 'https://www.youtube.com/embed/V1kJVCuSSSA?controls=0&modestbranding=1', 
       reference: 'https://vimeo.com/channels/friendsrepublic/273166543', 
-      dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.` 
+      dek: `Finalist in 'Best Documentary' category at My Rode Reel 2018. 'Vishnu' is an inspiring story of a tea seller from the city of Vadodara, who shares a unique relationship with his customers.` 
     },
     { 
       lead: 'PLAYGROUND', 
@@ -69,7 +76,8 @@ export class PortfolioComponent implements OnInit {
       cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044054/Friends%27%20Republic/Assets/fr_play-ground.jpg', 
       video: 'https://player.vimeo.com/video/343813921?byline=0&title=0&portrait=0', 
       reference: 'https://vimeo.com/channels/friendsrepublic/273164625', 
-      dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.` 
+      dek: `This VHS-style music video explores the life of three flatmates spending a laid back Sunday.`,
+      artistCredits: `Playground by Shashwat Bulusu is available to listen on Spotify.`
     },
     { 
       lead: 'VIR DAS', 
@@ -78,7 +86,7 @@ export class PortfolioComponent implements OnInit {
       cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044054/Friends%27%20Republic/Assets/fr_Vir-Das.jpg', 
       video: 'https://player.vimeo.com/video/285877576?byline=0&title=0&portrait=0', 
       reference: 'https://vimeo.com/channels/friendsrepublic/272413779', 
-      dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.` 
+      dek: `Recap of Vir Das's Gujarat tour with his comedy special 'Boarding Das'.` 
     },
     { 
       lead: 'LIMBO', 
@@ -96,7 +104,7 @@ export class PortfolioComponent implements OnInit {
       cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044057/Friends%27%20Republic/Assets/fr_Snap.jpg', 
       video: 'https://www.youtube.com/embed/g3Qz7T51jR0?controls=0&modestbranding=1', 
       reference: 'https://vimeo.com/channels/friendsrepublic/367668768', 
-      dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.` 
+      dek: `'What if your web-cam starts to misbehave- do you have a stalker?' Finalist in *Best Horror* Category - My Rode Reel 2017.` 
     },
     { 
       lead: 'AAKASH GUPTA', 

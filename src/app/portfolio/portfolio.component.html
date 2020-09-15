@@ -44,26 +44,23 @@
               </div>
               <div class="container-fluid h-100">
                 <div class="row justify-content-center align-self-center">
-                  <div class="col-md-8 ml-auto embed-responsive embed-responsive-16by9 z-depth-1-half">
+                  <div class="col-lg-8 col-md-12 ml-auto embed-responsive embed-responsive-16by9 z-depth-1-half">
                     <iframe [src]="selectedItem?.video | safe"
                       allowfullscreen></iframe>
                   </div>
-                    <div class="col-md-4 ml-auto">
+                    <div class="col-lg-4 col-md-12 ml-auto">
                       <div class="project-meta">
                         <p class="project-title mb-0">{{ selectedItem.lead }}</p>
                         <p class="project-byline">{{ selectedItem.byline }}</p>
                         <div class="project-description">
                           <p>{{ selectedItem.dek }}</p><br>
                           <div class="project-credits">
-                            <p class="project-meta">Written/Directed by: <span class="meta">Hetan Shah</span></p>
-                            <p class="project-meta">Shot/Edited by: <span class="meta">Chinmay Deshpande</span></p>
-                            <p class="project-meta">Cast: <span class="meta">Ananya Maheshwari</span></p>
-                            <p class="project-meta">Produced By: <span class="meta">Friends' Republic</span></p>
+                            <p *ngFor="let cred of selectedItem.projectCredits">{{ cred }}</p>
                             <br>
                             <br>
                             <br>
-                            <p class="project-meta">Broken Dreams by <span class="meta">Rushikesh Nene</span> is available to listen on Spotify.</p>
                           </div>
+                          <p>{{ selectedItem.artistCredits }}</p>
                         </div>
                       </div>
                   </div>
