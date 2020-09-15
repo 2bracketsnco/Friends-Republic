@@ -17,8 +17,8 @@ export class PortfolioComponent implements OnInit {
       reference: 'https://vimeo.com/channels/friendsrepublic/336648260', 
       dek: `One-minute explainer for Hipcouch, an interior design company based in Mumbai.`,
       projectCredits: [
-        `Produced by: Friends' Republic`,
-        'Client: Hipcouch'
+        'Client: Hipcouch',
+        `Produced by: Friends' Republic`
       ],
       artistCredits: `We were responsible for:
       Concept
@@ -38,9 +38,9 @@ export class PortfolioComponent implements OnInit {
       projectCredits: [
         'Co-directed by: Hetan Shah & Chinmay Deshpande',
         'Editor: Hetan Shah',
-        'Cinematography/Colour grade: Quais Waseeq',
+        'Cinematography/Colour Grade: Quais Waseeq',
         'Producer: Hitarth Solanki',
-        'Creative producer: Prem',
+        'Creative Producer: Prem',
         'Production Company: Supari Studios'
       ]
     },
@@ -79,8 +79,8 @@ export class PortfolioComponent implements OnInit {
       projectCredits: [
         'Client: The Comedy Factory',
         `Created by: Friends' Republic`,
-        'Shot by: Chinmay Deshpande & Hetan Shah',
-        'Editor/Colorist: Hetan Shah'
+        'Editor/Colorist: Hetan Shah',
+        'Shot by: Chinmay Deshpande & Hetan Shah'
       ]
     },
     { 
@@ -125,8 +125,8 @@ export class PortfolioComponent implements OnInit {
       dek: `Recap of Vir Das's Gujarat tour with his comedy special 'Boarding Das'.`,
       projectCredits: [
         'Client: The Comedy Factory',
-        'Shot by: Chinmay Deshpande & Hetan Shah',
-        'Editor/Colorist: Hetan Shah'
+        'Editor/Colorist: Hetan Shah',
+        'Shot by: Chinmay Deshpande & Hetan Shah'
       ]
     },
     { 
@@ -187,8 +187,8 @@ export class PortfolioComponent implements OnInit {
       projectCredits: [
         'Client: The Idea Bag Inc.',
         'Produced by: Friends’ Republic',
-        'Shot and Edited by: Chinmay Deshpande & Hetan Shah',
-        'Colorist: Hetan Shah'
+        'Colorist: Hetan Shah',
+        'Shot and Edited by: Chinmay Deshpande & Hetan Shah'
       ]
     },
     { 

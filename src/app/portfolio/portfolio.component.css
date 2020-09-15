@@ -359,6 +359,15 @@ p.project-meta {
   margin-bottom: 0rem;
 }
 
+.artist-credits {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.project-credits {
+  font-size: 0.9rem;
+}
+
 @media screen and (min-width: 1440px) {
   /* .col-md-4 {
     padding-left: 100px;
