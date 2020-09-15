@@ -365,18 +365,14 @@ p.project-meta {
 }
 
 .project-credits {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 @media screen and (min-width: 1440px) {
-  /* .col-md-4 {
-    padding-left: 100px;
-    padding-right: 100px;
+  .project-meta {
+    padding-left: 30px;
+    padding-right: 30px;
   }
-
-  .project-description {
-    margin-top: 50px;
-  } */
 }
 
 @media screen and (max-width: 992px) {

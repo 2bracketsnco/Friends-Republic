@@ -66,7 +66,13 @@ export class PortfolioComponent implements OnInit {
       cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044050/Friends%27%20Republic/Assets/fr_B_side-Poster-1.jpg', 
       video: 'https://www.youtube.com/embed/PAY4_tBq7rw?controls=0&modestbranding=1', 
       reference: 'https://vimeo.com/channels/friendsrepublic/308579389', 
-      dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.` 
+      dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.`,
+      projectCredits: [
+        'Directed by: Hetan Shah',
+        'Shot by: Chinmay Deshpande',
+        `Produced by: Friends' Republic`
+      ],
+      artistCredits: `All songs by Shashwat Bulusu.`
     },
     { 
       lead: 'ZAKIR KHAN', 
