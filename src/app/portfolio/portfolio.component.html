@@ -53,12 +53,10 @@
                         <p class="project-title mb-0">{{ selectedItem.lead }}</p>
                         <p class="project-byline">{{ selectedItem.byline }}</p>
                         <div class="project-description">
-                          <p>{{ selectedItem.dek }}</p><br><br>
+                          <p>{{ selectedItem.dek }}</p>
                           <div class="credits">
                             <div class="project-credits">
                               <p *ngFor="let cred of selectedItem.projectCredits">{{ cred }}</p>
-                              <br>
-                              <br>
                             </div>
                             <div class="artist-credits">
                               <p>{{ selectedItem.artistCredits }}</p>

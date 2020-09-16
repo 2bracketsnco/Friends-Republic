@@ -362,10 +362,15 @@ p.project-meta {
 .artist-credits {
   font-size: 0.8rem;
   font-style: italic;
+  margin-top: 50px;
 }
 
 .project-credits {
   font-size: 0.8rem;
+}
+
+.credits {
+  margin-top: 50px;
 }
 
 @media screen and (min-width: 1440px) {
