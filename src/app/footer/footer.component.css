@@ -6,6 +6,10 @@
     height: 60px;
     line-height: 60px;
   }
+
+  .col-md-12 {
+    padding-bottom: 15px;
+  }
   
   .copyrightSection p {
     margin: 0;
