@@ -2,8 +2,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <img class="about_logo rounded-circle z-depth-2" src="https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044103/Friends%27%20Republic/Assets/fr_logo_Original.png">
-                <p class="about_para"> We are Friends' Republic, an Indie Production Company from Mumbai.
+                <!-- <img class="about_logo rounded-circle z-depth-2" src="https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044103/Friends%27%20Republic/Assets/fr_logo_Original.png"> -->
+                <p class="about_para" *ngFor="let about of aboutus"> 
+                    {{ about.para1 }}
                 </p>
             </div>
         </div>

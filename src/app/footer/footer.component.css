@@ -7,6 +7,12 @@
     line-height: 60px;
   }
 
+  .foot {
+    color: goldenrod;
+    text-decoration: overline;
+    background-color: transparent;
+  }
+
   .col-md-12 {
     padding-bottom: 15px;
   }
