@@ -242,6 +242,19 @@ export class PortfolioComponent implements OnInit {
         'Edited and Graded by: Hetan Shah',
         'Sound Recording and Mixing by: Sumeet Mamtani (Ambisonic Records)'
       ]
+    },
+    { 
+      lead: 'MAKE ROOM FOR A BABY', 
+      byline: 'Documentary Series', 
+      class: 'web', 
+      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1636981344/Friends%27%20Republic/Assets/fr_make_a_room_for_a_baby_sara_sham.jpg', 
+      video: 'https://www.youtube.com/embed?v=Te2qfiK17Kg&list=PLDq4vguZiskYcBMc__Kko8p2ZV8EfWEJy&index=1&ab_channel=BeautifulHomes&controls=0&modestbranding=1', 
+      reference: 'https://vimeo.com/channels/friendsrepublic/367668768', 
+      dek: `Presenting 'Make Room For a Baby', a three-part series that takes us through interior designer Sarah Sham’s process of designing a nursery for her little one, all in the middle of the pandemic.`,
+      projectCredits: [
+        'Directed and Edited by: Hetan Shah, Chinmay Deshpande',
+        'Produced by: Supari Studios',
+      ]
     }
   ];
 
