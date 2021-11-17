@@ -11,9 +11,8 @@
     padding-bottom: 20px;
   }
 
-  .email {
+  .socialLinks {
     color: #fff;
-    text-decoration: underline;
   }
   
   @media screen and (min-width: 1024px) {
