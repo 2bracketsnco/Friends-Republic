@@ -76,18 +76,16 @@ export class PortfolioComponent implements OnInit {
       artistCredits: `All songs by Shashwat Bulusu.`
     },
     { 
-      lead: 'ZAKIR KHAN', 
-      byline: 'Tour Recap', 
-      class: 'short', 
-      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044053/Friends%27%20Republic/Assets/fr_Zakir-Still.jpg', 
-      video: 'https://player.vimeo.com/video/349332857?byline=0&title=0&portrait=0', 
-      reference: 'https://vimeo.com/channels/friendsrepublic/285877576', 
-      dek: `Recap of Zakir's Gujarat tour with his comedy special 'Kaksha Gyarvi'.`,
+      lead: 'MAKE ROOM FOR A BABY', 
+      byline: 'Documentary Series', 
+      class: 'web', 
+      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1636981344/Friends%27%20Republic/Assets/fr_make_a_room_for_a_baby_sara_sham.jpg', 
+      video: 'https://www.youtube.com/embed?v=Te2qfiK17Kg&list=PLDq4vguZiskYcBMc__Kko8p2ZV8EfWEJy&index=1&ab_channel=BeautifulHomes&controls=0&modestbranding=1', 
+      reference: 'https://vimeo.com/channels/friendsrepublic/367668768', 
+      dek: `Presenting 'Make Room For a Baby', a three-part series that takes us through interior designer Sarah Sham’s process of designing a nursery for her little one, all in the middle of the pandemic.`,
       projectCredits: [
-        'Client: The Comedy Factory',
-        `Created by: Friends' Republic`,
-        'Editor/Colorist: Hetan Shah',
-        'Shot by: Chinmay Deshpande & Hetan Shah'
+        'Directed and Edited by: Hetan Shah, Chinmay Deshpande',
+        'Produced by: Supari Studios',
       ]
     },
     { 
@@ -244,16 +242,18 @@ export class PortfolioComponent implements OnInit {
       ]
     },
     { 
-      lead: 'MAKE ROOM FOR A BABY', 
-      byline: 'Documentary Series', 
-      class: 'web', 
-      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1636981344/Friends%27%20Republic/Assets/fr_make_a_room_for_a_baby_sara_sham.jpg', 
-      video: 'https://www.youtube.com/embed?v=Te2qfiK17Kg&list=PLDq4vguZiskYcBMc__Kko8p2ZV8EfWEJy&index=1&ab_channel=BeautifulHomes&controls=0&modestbranding=1', 
-      reference: 'https://vimeo.com/channels/friendsrepublic/367668768', 
-      dek: `Presenting 'Make Room For a Baby', a three-part series that takes us through interior designer Sarah Sham’s process of designing a nursery for her little one, all in the middle of the pandemic.`,
+      lead: 'ZAKIR KHAN', 
+      byline: 'Tour Recap', 
+      class: 'short', 
+      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044053/Friends%27%20Republic/Assets/fr_Zakir-Still.jpg', 
+      video: 'https://player.vimeo.com/video/349332857?byline=0&title=0&portrait=0', 
+      reference: 'https://vimeo.com/channels/friendsrepublic/285877576', 
+      dek: `Recap of Zakir's Gujarat tour with his comedy special 'Kaksha Gyarvi'.`,
       projectCredits: [
-        'Directed and Edited by: Hetan Shah, Chinmay Deshpande',
-        'Produced by: Supari Studios',
+        'Client: The Comedy Factory',
+        `Created by: Friends' Republic`,
+        'Editor/Colorist: Hetan Shah',
+        'Shot by: Chinmay Deshpande & Hetan Shah'
       ]
     }
   ];
