@@ -198,7 +198,7 @@ export class PortfolioComponent implements OnInit {
           Shashwat Bulusu, 
           Uday Bhardwaj,
           Jyotirmay Menon`,
-        `Cinemetographers:
+        `Cinematographers:
           Deep Gurjar,
           Parth Vyas,
           Hetan Shah,
