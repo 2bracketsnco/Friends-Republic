@@ -255,6 +255,24 @@ export class PortfolioComponent implements OnInit {
         'Editor/Colorist: Hetan Shah',
         'Shot by: Chinmay Deshpande & Hetan Shah'
       ]
+    },
+    { 
+      lead: 'B Side: EP/02', 
+      byline: 'Music Documentary Series', 
+      class: 'after', 
+      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1637577324/Friends%27%20Republic/Assets/fr_bside_ep02_shibham_kamat.jpg', 
+      video: 'https://www.youtube.com/embed/UZpWX990WWw?controls=0&modestbranding=1', 
+      reference: 'https://vimeo.com/channels/friendsrepublic/308579389', 
+      dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.`,
+      projectCredits: [
+        'Directed & Edited by: Hetan Shah',
+        'Director of Photography: Chinmay Deshpande',
+        'Re-recording Mixer: Kartavya Jain',
+        `Produced by: Friends' Republic`,
+        'Appearances: Ajay Mistry (Proprietor - A. Mistry & Co., Mumbai)'
+
+      ],
+      artistCredits: `All songs by Shubham Kamat.`
     }
   ];
 
