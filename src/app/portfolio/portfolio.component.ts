@@ -181,7 +181,7 @@ export class PortfolioComponent implements OnInit {
     },
     { 
       lead: 'LIMBO', 
-      byline: 'Short', 
+      byline: 'Sci-Fi Short', 
       class: 'web', 
       cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044051/Friends%27%20Republic/Assets/fr_Limbo-Still.jpg', 
       video: 'https://www.youtube.com/embed/aYE_fNdvPD0?controls=0&modestbranding=1', 
