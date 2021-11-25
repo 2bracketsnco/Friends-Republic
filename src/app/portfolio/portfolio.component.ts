@@ -62,30 +62,36 @@ export class PortfolioComponent implements OnInit {
       artistCredits: `"Broken Dreams" by Rushikesh Nene is available to listen on Spotify.`
     },
     { 
-      lead: 'B Side: EP/01', 
+      lead: 'B Side: EP/02', 
       byline: 'Music Documentary Series', 
       class: 'after', 
-      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044050/Friends%27%20Republic/Assets/fr_B_side-Poster-1.jpg', 
-      video: 'https://www.youtube.com/embed/PAY4_tBq7rw?controls=0&modestbranding=1', 
+      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1637577324/Friends%27%20Republic/Assets/fr_bside_ep02_shibham_kamat.jpg', 
+      video: 'https://www.youtube.com/embed/UZpWX990WWw?controls=0&modestbranding=1', 
       reference: 'https://vimeo.com/channels/friendsrepublic/308579389', 
       dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.`,
       projectCredits: [
-        'Shot by: Chinmay Deshpande',
-        `Produced by: Friends' Republic`
+        'Directed & Edited by: Hetan Shah',
+        'Director of Photography: Chinmay Deshpande',
+        'Re-recording Mixer: Kartavya Jain',
+        `Produced by: Friends' Republic`,
+        'Appearances: Ajay Mistry (Proprietor - A. Mistry & Co., Mumbai)'
+
       ],
-      artistCredits: `All songs by Shashwat Bulusu.`
+      artistCredits: `All songs by Shubham Kamat.`
     },
     { 
-      lead: 'MAKE ROOM FOR A BABY', 
-      byline: 'Documentary Series', 
-      class: 'web', 
-      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1636981344/Friends%27%20Republic/Assets/fr_make_a_room_for_a_baby_sara_sham.jpg', 
-      video: 'https://www.youtube.com/embed?v=Te2qfiK17Kg&list=PLDq4vguZiskYcBMc__Kko8p2ZV8EfWEJy&index=1&ab_channel=BeautifulHomes&controls=0&modestbranding=1', 
-      reference: 'https://vimeo.com/channels/friendsrepublic/367668768', 
-      dek: `Presenting 'Make Room For a Baby', a three-part series that takes us through interior designer Sarah Sham’s process of designing a nursery for her little one, all in the middle of the pandemic.`,
+      lead: 'ZAKIR KHAN', 
+      byline: 'Tour Recap', 
+      class: 'short', 
+      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044053/Friends%27%20Republic/Assets/fr_Zakir-Still.jpg', 
+      video: 'https://player.vimeo.com/video/349332857?byline=0&title=0&portrait=0', 
+      reference: 'https://vimeo.com/channels/friendsrepublic/285877576', 
+      dek: `Recap of Zakir's Gujarat tour with his comedy special 'Kaksha Gyarvi'.`,
       projectCredits: [
-        'Directed and Edited by: Hetan Shah, Chinmay Deshpande',
-        'Produced by: Supari Studios',
+        'Client: The Comedy Factory',
+        `Created by: Friends' Republic`,
+        'Editor/Colorist: Hetan Shah',
+        'Shot by: Chinmay Deshpande & Hetan Shah'
       ]
     },
     { 
@@ -105,21 +111,17 @@ export class PortfolioComponent implements OnInit {
       ] 
     },
     { 
-      lead: 'PLAYGROUND', 
-      byline: 'Music Video', 
-      class: 'others', 
-      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044054/Friends%27%20Republic/Assets/fr_play-ground.jpg', 
-      video: 'https://player.vimeo.com/video/343813921?byline=0&title=0&portrait=0', 
-      reference: 'https://vimeo.com/channels/friendsrepublic/273164625', 
-      dek: `This VHS-style music video explores the life of three flatmates spending a laid back Sunday.`,
+      lead: 'MAKE ROOM FOR A BABY', 
+      byline: 'Documentary Series', 
+      class: 'web', 
+      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1636981344/Friends%27%20Republic/Assets/fr_make_a_room_for_a_baby_sara_sham.jpg', 
+      video: 'https://www.youtube.com/embed?v=Te2qfiK17Kg&list=PLDq4vguZiskYcBMc__Kko8p2ZV8EfWEJy&index=1&ab_channel=BeautifulHomes&controls=0&modestbranding=1', 
+      reference: 'https://vimeo.com/channels/friendsrepublic/367668768', 
+      dek: `Presenting 'Make Room For a Baby', a three-part series that takes us through interior designer Sarah Sham’s process of designing a nursery for her little one, all in the middle of the pandemic.`,
       projectCredits: [
-        'Artist: Shashwat Bulusu',
-        'Directed & Edited by: Hetan Shah',
-        'Cinematography by: Chinmay Deshpande',
-        'Cast: Anikesa Dhing, Sasha Kalrani, Vaidehi Gohil',
-        `Produced by: Friends' Republic`
-      ],
-      artistCredits: `"Playground" by Shashwat Bulusu is available to listen on Spotify.`
+        'Directed and Edited by: Hetan Shah, Chinmay Deshpande',
+        'Produced by: Supari Studios',
+      ]
     },
     { 
       lead: 'VIR DAS', 
@@ -137,20 +139,6 @@ export class PortfolioComponent implements OnInit {
       ]
     },
     { 
-      lead: 'LIMBO', 
-      byline: 'Short', 
-      class: 'web', 
-      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044051/Friends%27%20Republic/Assets/fr_Limbo-Still.jpg', 
-      video: 'https://www.youtube.com/embed/aYE_fNdvPD0?controls=0&modestbranding=1', 
-      reference: 'https://vimeo.com/channels/friendsrepublic/367668768', 
-      dek: `Virtual Reality on a "substance"... what could go wrong? `,
-      projectCredits: [
-        'Director/Cinematographer: Chinmay Deshpande',
-        'Editor/Colourist: Hetan Shah',
-        'Cast: Tareesh Jaggi'
-      ] 
-    },
-    { 
       lead: 'SNAP', 
       byline: 'Horror Short', 
       class: 'web', 
@@ -166,6 +154,20 @@ export class PortfolioComponent implements OnInit {
       ]
     },
     { 
+      lead: 'LIMBO', 
+      byline: 'Short', 
+      class: 'web', 
+      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044051/Friends%27%20Republic/Assets/fr_Limbo-Still.jpg', 
+      video: 'https://www.youtube.com/embed/aYE_fNdvPD0?controls=0&modestbranding=1', 
+      reference: 'https://vimeo.com/channels/friendsrepublic/367668768', 
+      dek: `Virtual Reality on a "substance"... what could go wrong? `,
+      projectCredits: [
+        'Director/Cinematographer: Chinmay Deshpande',
+        'Editor/Colourist: Hetan Shah',
+        'Cast: Tareesh Jaggi'
+      ] 
+    },
+    { 
       lead: 'AAKASH GUPTA', 
       byline: 'Tour Recap', 
       class: 'web', 
@@ -179,6 +181,20 @@ export class PortfolioComponent implements OnInit {
         'Shot by: Chinmay Deshpande, Hetan Shah',
         'Editor/Colourist: Hetan Shah'
       ]
+    },
+    { 
+      lead: 'B Side: EP/01', 
+      byline: 'Music Documentary Series', 
+      class: 'after', 
+      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044050/Friends%27%20Republic/Assets/fr_B_side-Poster-1.jpg', 
+      video: 'https://www.youtube.com/embed/PAY4_tBq7rw?controls=0&modestbranding=1', 
+      reference: 'https://vimeo.com/channels/friendsrepublic/308579389', 
+      dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.`,
+      projectCredits: [
+        'Shot by: Chinmay Deshpande',
+        `Produced by: Friends' Republic`
+      ],
+      artistCredits: `All songs by Shashwat Bulusu.`
     },
     { 
       lead: 'UNDER THE SUN', 
@@ -211,21 +227,6 @@ export class PortfolioComponent implements OnInit {
       artistCredits: `All songs by Shashwat Bulusu.` 
     },
     { 
-      lead: 'WEEKEND WINDOW', 
-      byline: 'Aftermovie', 
-      class: 'web', 
-      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044053/Friends%27%20Republic/Assets/fr_WW-2018.jpg', 
-      video: 'https://player.vimeo.com/video/308579389?byline=0&title=0&portrait=0', 
-      reference: 'https://vimeo.com/channels/friendsrepublic/367668768', 
-      // dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.`,
-      projectCredits: [
-        'Client: The Idea Bag Inc.',
-        'Produced by: Friends’ Republic',
-        'Colorist: Hetan Shah',
-        'Shot and Edited by: Chinmay Deshpande & Hetan Shah'
-      ]
-    },
-    { 
       lead: 'LULLA CLASSES', 
       byline: 'Commercial', 
       class: 'web', 
@@ -242,37 +243,36 @@ export class PortfolioComponent implements OnInit {
       ]
     },
     { 
-      lead: 'ZAKIR KHAN', 
-      byline: 'Tour Recap', 
-      class: 'short', 
-      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044053/Friends%27%20Republic/Assets/fr_Zakir-Still.jpg', 
-      video: 'https://player.vimeo.com/video/349332857?byline=0&title=0&portrait=0', 
-      reference: 'https://vimeo.com/channels/friendsrepublic/285877576', 
-      dek: `Recap of Zakir's Gujarat tour with his comedy special 'Kaksha Gyarvi'.`,
+      lead: 'PLAYGROUND', 
+      byline: 'Music Video', 
+      class: 'others', 
+      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044054/Friends%27%20Republic/Assets/fr_play-ground.jpg', 
+      video: 'https://player.vimeo.com/video/343813921?byline=0&title=0&portrait=0', 
+      reference: 'https://vimeo.com/channels/friendsrepublic/273164625', 
+      dek: `This VHS-style music video explores the life of three flatmates spending a laid back Sunday.`,
       projectCredits: [
-        'Client: The Comedy Factory',
-        `Created by: Friends' Republic`,
-        'Editor/Colorist: Hetan Shah',
-        'Shot by: Chinmay Deshpande & Hetan Shah'
-      ]
+        'Artist: Shashwat Bulusu',
+        'Directed & Edited by: Hetan Shah',
+        'Cinematography by: Chinmay Deshpande',
+        'Cast: Anikesa Dhing, Sasha Kalrani, Vaidehi Gohil',
+        `Produced by: Friends' Republic`
+      ],
+      artistCredits: `"Playground" by Shashwat Bulusu is available to listen on Spotify.`
     },
     { 
-      lead: 'B Side: EP/02', 
-      byline: 'Music Documentary Series', 
-      class: 'after', 
-      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1637577324/Friends%27%20Republic/Assets/fr_bside_ep02_shibham_kamat.jpg', 
-      video: 'https://www.youtube.com/embed/UZpWX990WWw?controls=0&modestbranding=1', 
-      reference: 'https://vimeo.com/channels/friendsrepublic/308579389', 
-      dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.`,
+      lead: 'WEEKEND WINDOW', 
+      byline: 'Aftermovie', 
+      class: 'web', 
+      cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044053/Friends%27%20Republic/Assets/fr_WW-2018.jpg', 
+      video: 'https://player.vimeo.com/video/308579389?byline=0&title=0&portrait=0', 
+      reference: 'https://vimeo.com/channels/friendsrepublic/367668768', 
+      // dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.`,
       projectCredits: [
-        'Directed & Edited by: Hetan Shah',
-        'Director of Photography: Chinmay Deshpande',
-        'Re-recording Mixer: Kartavya Jain',
-        `Produced by: Friends' Republic`,
-        'Appearances: Ajay Mistry (Proprietor - A. Mistry & Co., Mumbai)'
-
-      ],
-      artistCredits: `All songs by Shubham Kamat.`
+        'Client: The Idea Bag Inc.',
+        'Produced by: Friends’ Republic',
+        'Colorist: Hetan Shah',
+        'Shot and Edited by: Chinmay Deshpande & Hetan Shah'
+      ]
     }
   ];
 
