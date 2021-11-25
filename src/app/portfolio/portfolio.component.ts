@@ -20,13 +20,14 @@ export class PortfolioComponent implements OnInit {
         'Client: Hipcouch',
         `Produced by: Friends' Republic`
       ],
-      artistCredits: `We were responsible for:
-      Concept
-      Direction
-      Cinematography
-      Edit
-      Graphics and Animation
-      `
+      titleCredits: [
+        'We were responsible for:',
+        'Concept',
+        'Direction',
+        'Cinematography',
+        'Edit',
+        'Graphics and Animation'
+      ]
     },
     { 
       lead: '"SILVER NIGHT" - ASIAN PAINTS NILAYA', 
@@ -37,11 +38,15 @@ export class PortfolioComponent implements OnInit {
       reference: 'https://vimeo.com/channels/friendsrepublic/286935698', 
       dek: `A Launch film for ‘Wallpaper of the year 2020’- Asian Paints Nilaya x Nicobar Design Studio.`,
       projectCredits: [
-        'Co-directed by: Hetan Shah & Chinmay Deshpande',
-        'Editor: Hetan Shah',
-        'Cinematography/Colour Grade: Quais Waseeq',
+        'Co-directed by: Hetan Shah & Chinmay Deshpande'
+      ],
+      titleCredits: [
+        'Edited by: Hetan Shah',
+        'Cinematography/Colour Grade by: Quais Waseeq',
         'Producer: Hitarth Solanki',
-        'Creative Producer: Prem',
+        'Creative Producer: Prem'
+      ],
+      productionCredits: [
         'Production Company: Supari Studios'
       ]
     },
@@ -54,7 +59,9 @@ export class PortfolioComponent implements OnInit {
       reference: 'https://vimeo.com/channels/friendsrepublic/367668768', 
       dek: `An introvert teenage girl attempts to have a cool haircut for a special occasion - only to have her dreams shattered. ‘Broken Dreams’ is a story about her acceptance with the situation and ultimately learning the fact that happiness is a choice.`,
       projectCredits: [
-        'Artist: Rushikesh Nene',
+        'Artist: Rushikesh Nene'
+      ],
+      titleCredits: [
         'Writen/Directed by: Hetan Shah',
         'Shot/Edited by: Chinmay Deshpande',
         'Cast: Ananya Maheshwari'
@@ -69,13 +76,24 @@ export class PortfolioComponent implements OnInit {
       video: 'https://www.youtube.com/embed/UZpWX990WWw?controls=0&modestbranding=1', 
       reference: 'https://vimeo.com/channels/friendsrepublic/308579389', 
       dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.`,
+      dekArtist: `The second episode features Vadodara based Pianist, Singer-Songwriter Shubham Kamat.`,
       projectCredits: [
-        'Directed & Edited by: Hetan Shah',
+        'Directed/ Edited by: Hetan Shah',
         'Director of Photography: Chinmay Deshpande',
-        'Re-recording Mixer: Kartavya Jain',
-        `Produced by: Friends' Republic`,
+        'Mix by: Kartavya Jain',
         'Appearances: Ajay Mistry (Proprietor - A. Mistry & Co., Mumbai)'
-
+      ],
+      liveSessionCredits: [
+        'Live Sessions: ',
+        '1. Break Me',
+        '2. Craptalk (Bonus Track)'
+      ],
+      titleCredits: [
+        'Titles by: Chinmay Deshpande',
+        'Graded by: Hetan Shah'
+      ],
+      productionCredits: [
+        `Produced by: Friends' Republic`
       ],
       artistCredits: `All songs by Shubham Kamat.`
     },
@@ -89,9 +107,11 @@ export class PortfolioComponent implements OnInit {
       dek: `Recap of Zakir's Gujarat tour with his comedy special 'Kaksha Gyarvi'.`,
       projectCredits: [
         'Client: The Comedy Factory',
-        `Created by: Friends' Republic`,
+        `Created by: Friends' Republic`
+      ],
+      titleCredits: [
         'Editor/Colorist: Hetan Shah',
-        'Shot by: Chinmay Deshpande & Hetan Shah'
+        'Shot by: Chinmay Deshpande, Hetan Shah'
       ]
     },
     { 
@@ -106,7 +126,9 @@ export class PortfolioComponent implements OnInit {
         'Directed/Edited by: Hetan Shah',
         'Cinematography by: Chinmay Deshpande',
         'Music by: Aliozair Patel',
-        'BTS coverage: Surabhi Thakkar',
+        'BTS coverage: Surabhi Thakkar'
+      ],
+      productionCredits: [
         `Produced by: Friends' Republic`
       ] 
     },
@@ -120,7 +142,9 @@ export class PortfolioComponent implements OnInit {
       dek: `Presenting 'Make Room For a Baby', a three-part series that takes us through interior designer Sarah Sham’s process of designing a nursery for her little one, all in the middle of the pandemic.`,
       projectCredits: [
         'Directed and Edited by: Hetan Shah, Chinmay Deshpande',
-        'Produced by: Supari Studios',
+      ],
+      productionCredits: [
+        'Produced by: Supari Studios'
       ]
     },
     { 
@@ -133,9 +157,11 @@ export class PortfolioComponent implements OnInit {
       dek: `Recap of Vir Das's Gujarat tour with his comedy special "Boarding Das".`,
       projectCredits: [
         'Client: The Comedy Factory',
-        'Editor/Colorist: Hetan Shah',
-        'Shot by: Chinmay Deshpande & Hetan Shah',
         `Created by: Friends' Republic`
+      ],
+      titleCredits: [
+        'Editor/Colorist: Hetan Shah',
+        'Shot by: Chinmay Deshpande & Hetan Shah'
       ]
     },
     { 
@@ -176,10 +202,14 @@ export class PortfolioComponent implements OnInit {
       reference: 'https://vimeo.com/channels/friendsrepublic/367668768', 
       dek: `Recap of Aakash's Gujarat tour with his comedy special "Excuse Me Brother!”.`,
       projectCredits: [
-        'Client: Aakash Gupta',
-        `Created by: Friends' Republic`,
+        'Client: Aakash Gupta'
+      ],
+      titleCredits: [
         'Shot by: Chinmay Deshpande, Hetan Shah',
         'Editor/Colourist: Hetan Shah'
+      ],
+      productionCredits: [
+        `Created by: Friends' Republic`
       ]
     },
     { 
@@ -189,9 +219,26 @@ export class PortfolioComponent implements OnInit {
       cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044050/Friends%27%20Republic/Assets/fr_B_side-Poster-1.jpg', 
       video: 'https://www.youtube.com/embed/PAY4_tBq7rw?controls=0&modestbranding=1', 
       reference: 'https://vimeo.com/channels/friendsrepublic/308579389', 
-      dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.`,
+      dek: `Friends' Republic presents B SIDE, a documentary series which features independent musicians talking about their lives and music along with some special sessions (filmed and recorded live at locations) 
+      that captures the true energy of a live performance.`,
+      dekArtist: `The first episode features Vadodara based singer-songwriter Shashwat Bulusu.`,
       projectCredits: [
-        'Shot by: Chinmay Deshpande',
+        'Directed/ Edited by: Hetan Shah',
+        'Director of Photography: Chinmay Deshpande',
+        'Mix by: Kartavya Jain'
+      ],
+      liveSessionCredits: [
+        'Live Sessions: ',
+        '1. Tiny Man',
+        '2. Padmini on Riverbed',
+        '3. Under the Sun (Bonus Track)'
+      ],
+      titleCredits: [
+        'Titles by: Chinmay Deshpande',
+        'Graded by: Hetan Shah',
+        'BTS Coverage: Pratik Parmar'
+      ],
+      productionCredits: [
         `Produced by: Friends' Republic`
       ],
       artistCredits: `All songs by Shashwat Bulusu.`
@@ -207,22 +254,28 @@ export class PortfolioComponent implements OnInit {
       projectCredits: [
         'Directed by: Hetan Shah',
         'Director of Photography: Chinmay Deshpande',
-        `Produced by: Friends' Republic`,
-        `Music Performed by: 
-          Shashwat Bulusu, 
-          Uday Bhardwaj,
-          Jyotirmay Menon`,
-        `Cinematographers:
-          Deep Gurjar,
-          Parth Vyas,
-          Hetan Shah,
-          Chinmay Deshpande`,
         'Sound Supervisor: Gagan Malhotra',
         'Mixed by: Kartavya Jain',
         'Editing/Titles by: Chinmay Deshpande',
         'Graded by: Hetan Shah',
         'Behind the Scenes by: Pratik Parmar',
         'Film Lcation: Wonky Works, Vadodara'
+      ],
+      liveSessionCredits: [
+        'Music Performed by:',
+        'Shashwat Bulusu', 
+        'Uday Bhardwaj',
+        'Jyotirmay Menon'
+      ],
+      titleCredits: [
+        'Cinematographers:',
+        'Deep Gurjar',
+        'Parth Vyas',
+        'Hetan Shah',
+        'Chinmay Deshpande'
+      ],
+      productionCredits: [
+        `Produced by: Friends' Republic`
       ],
       artistCredits: `All songs by Shashwat Bulusu.` 
     },
@@ -235,11 +288,15 @@ export class PortfolioComponent implements OnInit {
       reference: 'https://vimeo.com/channels/friendsrepublic/367668768', 
       // dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.`
       projectCredits: [
-        'Client: Dev Lulla Sir (Lulla Classes)',
-        'Produced by: Friends’ Republic',
+        'Client: Dev Lulla Sir (Lulla Classes)'
+      ],
+      titleCredits: [
         'Directed and Shot by: Chinmay Deshpande',
         'Edited and Graded by: Hetan Shah',
         'Sound Recording and Mixing by: Sumeet Mamtani (Ambisonic Records)'
+      ],
+      productionCredits: [
+        `Produced by: Friends' Republic`
       ]
     },
     { 
@@ -251,10 +308,14 @@ export class PortfolioComponent implements OnInit {
       reference: 'https://vimeo.com/channels/friendsrepublic/273164625', 
       dek: `This VHS-style music video explores the life of three flatmates spending a laid back Sunday.`,
       projectCredits: [
-        'Artist: Shashwat Bulusu',
+        'Artist: Shashwat Bulusu'
+      ],
+      titleCredits: [
         'Directed & Edited by: Hetan Shah',
         'Cinematography by: Chinmay Deshpande',
-        'Cast: Anikesa Dhing, Sasha Kalrani, Vaidehi Gohil',
+        'Cast: Anikesa Dhing, Sasha Kalrani, Vaidehi Gohil'
+      ],
+      productionCredits: [
         `Produced by: Friends' Republic`
       ],
       artistCredits: `"Playground" by Shashwat Bulusu is available to listen on Spotify.`
@@ -268,10 +329,14 @@ export class PortfolioComponent implements OnInit {
       reference: 'https://vimeo.com/channels/friendsrepublic/367668768', 
       // dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.`,
       projectCredits: [
-        'Client: The Idea Bag Inc.',
-        'Produced by: Friends’ Republic',
+        'Client: The Idea Bag Inc.'
+      ],
+      titleCredits: [
         'Colorist: Hetan Shah',
         'Shot and Edited by: Chinmay Deshpande & Hetan Shah'
+      ],
+      productionCredits: [
+        `Produced by: Friends' Republic`
       ]
     }
   ];

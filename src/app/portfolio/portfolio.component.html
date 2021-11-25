@@ -54,9 +54,19 @@
                         <p class="project-byline">{{ selectedItem.byline }}</p>
                         <div class="project-description">
                           <p>{{ selectedItem.dek }}</p>
+                          <p>{{ selectedItem.dekArtist }}</p>
                           <div class="credits">
                             <div class="project-credits">
                               <p *ngFor="let cred of selectedItem.projectCredits">{{ cred }}</p>
+                            </div>
+                            <div class="livesession-credits">
+                              <p *ngFor="let lsCred of selectedItem.liveSessionCredits">{{ lsCred }}</p>
+                            </div>
+                            <div class="title-credits">
+                              <p *ngFor="let tCred of selectedItem.titleCredits">{{ tCred }}</p>
+                            </div>
+                            <div class="production-credits">
+                              <p *ngFor="let prodCred of selectedItem.productionCredits">{{ prodCred }}</p>
                             </div>
                             <div class="artist-credits">
                               <p>{{ selectedItem.artistCredits }}</p>

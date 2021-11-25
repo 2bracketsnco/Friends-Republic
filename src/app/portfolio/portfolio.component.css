@@ -359,14 +359,41 @@ p.project-meta {
   margin-bottom: 0rem;
 }
 
+.livesession-credits>p {
+  margin-bottom: 0rem;
+}
+
+.title-credits>p {
+  margin-bottom: 0rem;
+}
+
+.production-credits>p {
+  margin-bottom: 0rem;
+}
+
 .artist-credits {
   font-size: 0.8rem;
   font-style: italic;
   margin-top: 50px;
 }
 
-.project-credits {
+.project-credits{
   font-size: 0.8rem;
+}
+
+.livesession-credits {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+.title-credits {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+.production-credits {
+  font-size: 0.8rem;
+  margin-top: 1rem;
 }
 
 .credits {
