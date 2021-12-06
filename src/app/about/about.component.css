@@ -15,6 +15,11 @@
   padding-bottom: 20px;
 }
 
+.namesInsta {
+  color: goldenrod;
+  font-weight: bolder;
+}
+
 @media screen and (max-width: 736px) {
   .about_logo {
     width: 50%;
