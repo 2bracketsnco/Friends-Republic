@@ -86,7 +86,7 @@ $(document).ready(function () {
     });
 
     const port = $("#portfolio");
-    const portTop = port.offset().top - 90;
+    const portTop = (port.offset().top - port.outerHeight(true), 600);
 
     $(window).on("scroll", stickyLogo);
 
