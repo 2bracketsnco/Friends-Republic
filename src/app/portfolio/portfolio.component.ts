@@ -46,7 +46,7 @@ export class PortfolioComponent implements OnInit {
         'Executive Producer: Manoti Jain',
         'Executive Creative Director- Nisha Vasudevan',
         'Creative Producer: Hitarth Solanki',
-        'Creative Producer: Prem'
+        'Creative Director: Prem Kumar'
       ],
       productionCredits: [
         'Produced by: Supari Studios'
