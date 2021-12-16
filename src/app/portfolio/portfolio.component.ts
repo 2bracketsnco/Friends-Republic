@@ -38,16 +38,18 @@ export class PortfolioComponent implements OnInit {
       reference: 'https://vimeo.com/channels/friendsrepublic/286935698', 
       dek: `A Launch film for ‘Wallpaper of the year 2020’- Asian Paints Nilaya x Nicobar Design Studio.`,
       projectCredits: [
-        'Co-directed by: Hetan Shah & Chinmay Deshpande'
+        'Directed by: Hetan Shah & Chinmay Deshpande'
       ],
       titleCredits: [
         'Edited by: Hetan Shah',
         'Cinematography/Colour Grade by: Quais Waseeq',
-        'Producer: Hitarth Solanki',
+        'Executive Producer: Manoti Jain',
+        'Executive Creative Director- Nisha Vasudevan',
+        'Creative Producer: Hitarth Solanki',
         'Creative Producer: Prem'
       ],
       productionCredits: [
-        'Production Company: Supari Studios'
+        'Produced by: Supari Studios'
       ]
     },
     { 
@@ -142,9 +144,17 @@ export class PortfolioComponent implements OnInit {
       dek: `Presenting 'Make Room For a Baby', a three-part series that takes us through interior designer Sarah Sham’s process of designing a nursery for her little one, all in the middle of the pandemic.`,
       projectCredits: [
         'Directed and Edited by: Hetan Shah, Chinmay Deshpande',
+        'Executive Creative Director: Nisha Vasudevan',
+        'Creative Director: Nandini Godara',
+        'Executive Producer: Manoti Jain',
+        'Senior Creative Producer: Ria Concessao',
+        'Creative Producer: Kriti Bhangadiya',
+        'DOP: Ritvik Tyagi',
+        'Designer & Motion Graphics: Shradha Verma',
+        'Sound Design & Mix: Carl Nazareth'
       ],
       productionCredits: [
-        'Produced by: Supari Studios'
+        'Conceptualized and Produced by: Supari Studios'
       ]
     },
     { 
