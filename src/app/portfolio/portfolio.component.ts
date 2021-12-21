@@ -34,7 +34,7 @@ export class PortfolioComponent implements OnInit {
       byline: 'Commercial',
       class: 'doc', 
       cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044050/Friends%27%20Republic/Assets/fr_Asian-Paints.jpg', 
-      video: 'https://www.youtube.com/embed/Bx9EeWRNFw8?controls=0&modestbranding=1', 
+      video: 'https://www.youtube.com/embed/Bx9EeWRNFw8?modestbranding=1', 
       reference: 'https://vimeo.com/channels/friendsrepublic/286935698', 
       dek: `A Launch film for ‘Wallpaper of the year 2020’- Asian Paints Nilaya x Nicobar Design Studio.`,
       projectCredits: [
@@ -44,7 +44,7 @@ export class PortfolioComponent implements OnInit {
         'Edited by: Hetan Shah',
         'Cinematography/Colour Grade by: Quais Waseeq',
         'Executive Producer: Manoti Jain',
-        'Executive Creative Director- Nisha Vasudevan',
+        'Executive Creative Director: Nisha Vasudevan',
         'Creative Producer: Hitarth Solanki',
         'Creative Director: Prem Kumar'
       ],
@@ -75,7 +75,7 @@ export class PortfolioComponent implements OnInit {
       byline: 'Music Documentary Series', 
       class: 'after', 
       cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1637577324/Friends%27%20Republic/Assets/fr_bside_ep02_shibham_kamat.jpg', 
-      video: 'https://www.youtube.com/embed/UZpWX990WWw?controls=0&modestbranding=1', 
+      video: 'https://www.youtube.com/embed/UZpWX990WWw?modestbranding=1', 
       reference: 'https://vimeo.com/channels/friendsrepublic/308579389', 
       dek: `Friends' Republic presents B SIDE, a documentary series which features indie musicians talking about their lives and music along with some special performances filmed and recorded live at locations to give you a unique experience.`,
       dekArtist: `The second episode features Vadodara based Pianist, Singer-Songwriter Shubham Kamat.`,
@@ -121,7 +121,7 @@ export class PortfolioComponent implements OnInit {
       byline: 'Short Documentary', 
       class: 'short', 
       cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599458624/Friends%27%20Republic/Assets/fr_Vishnu.jpg', 
-      video: 'https://www.youtube.com/embed/V1kJVCuSSSA?controls=0&modestbranding=1', 
+      video: 'https://www.youtube.com/embed/V1kJVCuSSSA?modestbranding=1', 
       reference: 'https://vimeo.com/channels/friendsrepublic/273166543', 
       dek: `Finalist in 'Best Documentary' category at My Rode Reel 2018. 'Vishnu' is an inspiring story of a tea seller from the city of Vadodara, who shares a unique relationship with his customers.`,
       projectCredits: [
@@ -139,7 +139,7 @@ export class PortfolioComponent implements OnInit {
       byline: 'Documentary Series', 
       class: 'web', 
       cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1636981344/Friends%27%20Republic/Assets/fr_make_a_room_for_a_baby_sara_sham.jpg', 
-      video: 'https://www.youtube.com/embed?v=Te2qfiK17Kg&list=PLDq4vguZiskYcBMc__Kko8p2ZV8EfWEJy&index=1&ab_channel=BeautifulHomes&controls=0&modestbranding=1', 
+      video: 'https://www.youtube.com/embed?v=Te2qfiK17Kg&list=PLDq4vguZiskYcBMc__Kko8p2ZV8EfWEJy&index=1&ab_channel=BeautifulHomes&modestbranding=1', 
       reference: 'https://vimeo.com/channels/friendsrepublic/367668768', 
       dek: `Presenting 'Make Room For a Baby', a three-part series that takes us through interior designer Sarah Sham’s process of designing a nursery for her little one, all in the middle of the pandemic.`,
       projectCredits: [
@@ -179,7 +179,7 @@ export class PortfolioComponent implements OnInit {
       byline: 'Horror Short', 
       class: 'web', 
       cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044057/Friends%27%20Republic/Assets/fr_Snap.jpg', 
-      video: 'https://www.youtube.com/embed/g3Qz7T51jR0?controls=0&modestbranding=1', 
+      video: 'https://www.youtube.com/embed/g3Qz7T51jR0?modestbranding=1', 
       reference: 'https://vimeo.com/channels/friendsrepublic/367668768', 
       dek: `'What if your web-cam starts to misbehave- do you have a stalker?' Finalist in *Best Horror* Category - My Rode Reel 2017.`,
       projectCredits: [
@@ -194,7 +194,7 @@ export class PortfolioComponent implements OnInit {
       byline: 'Short', 
       class: 'web', 
       cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044051/Friends%27%20Republic/Assets/fr_Limbo-Still.jpg', 
-      video: 'https://www.youtube.com/embed/aYE_fNdvPD0?controls=0&modestbranding=1', 
+      video: 'https://www.youtube.com/embed/aYE_fNdvPD0?modestbranding=1', 
       reference: 'https://vimeo.com/channels/friendsrepublic/367668768', 
       dek: `Virtual Reality on a "substance"... what could go wrong? `,
       projectCredits: [
@@ -208,7 +208,7 @@ export class PortfolioComponent implements OnInit {
       byline: 'Tour Recap', 
       class: 'web', 
       cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044050/Friends%27%20Republic/Assets/fr_Aakash-Gupta.jpg', 
-      video: 'https://www.youtube.com/embed/nN2XSigfJd0?controls=0&modestbranding=1', 
+      video: 'https://www.youtube.com/embed/nN2XSigfJd0?modestbranding=1', 
       reference: 'https://vimeo.com/channels/friendsrepublic/367668768', 
       dek: `Recap of Aakash's Gujarat tour with his comedy special "Excuse Me Brother!”.`,
       projectCredits: [
@@ -227,7 +227,7 @@ export class PortfolioComponent implements OnInit {
       byline: 'Music Documentary Series', 
       class: 'after', 
       cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044050/Friends%27%20Republic/Assets/fr_B_side-Poster-1.jpg', 
-      video: 'https://www.youtube.com/embed/PAY4_tBq7rw?controls=0&modestbranding=1', 
+      video: 'https://www.youtube.com/embed/PAY4_tBq7rw?modestbranding=1', 
       reference: 'https://vimeo.com/channels/friendsrepublic/308579389', 
       dek: `Friends' Republic presents B SIDE, a documentary series which features independent musicians talking about their lives and music along with some special sessions (filmed and recorded live at locations) 
       that captures the true energy of a live performance.`,
@@ -258,7 +258,7 @@ export class PortfolioComponent implements OnInit {
       byline: 'B Side - Live Session', 
       class: 'web', 
       cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599458625/Friends%27%20Republic/Assets/fr_under_the_sun.png', 
-      video: 'https://www.youtube.com/embed/vBgkuYXLTPo?controls=0&modestbranding=1', 
+      video: 'https://www.youtube.com/embed/vBgkuYXLTPo?modestbranding=1', 
       reference: 'https://vimeo.com/channels/friendsrepublic/367668768', 
       dek: `This is a bonus live session from B Side EP/01 ft. Shashwat Bulusu.`,
       projectCredits: [
