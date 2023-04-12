@@ -120,5 +120,8 @@
         }
       }
     }},
-  "defaultProject": "friendsrepublic"
+  "defaultProject": "friendsrepublic",
+  "cli": {
+    "analytics": false
+  }
 }
