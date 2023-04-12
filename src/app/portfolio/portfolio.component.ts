@@ -13,7 +13,7 @@ export class PortfolioComponent implements OnInit {
       byline: 'Commercial', 
       class: 'short', 
       cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599458624/Friends%27%20Republic/Assets/fr_hipcouch_kaveer.jpg', 
-      video: 'https://player.vimeo.com/video/384870257?byline=0&title=0&portrait=0&control=0', 
+      video: 'https://player.vimeo.com/video/384870257?byline=0&title=0&portrait=0&control=0',
       reference: 'https://vimeo.com/channels/friendsrepublic/336648260', 
       dek: `One-minute explainer for Hipcouch, an interior design company based in Mumbai.`,
       projectCredits: [
