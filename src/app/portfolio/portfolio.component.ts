@@ -35,7 +35,12 @@ export class PortfolioComponent implements OnInit {
       class: 'doc', 
       cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044050/Friends%27%20Republic/Assets/fr_Asian-Paints.jpg', 
       video: 'https://www.youtube.com/embed/Bx9EeWRNFw8?modestbranding=1', 
-      reference: 'https://vimeo.com/channels/friendsrepublic/286935698', 
+      reference: 'https://vimeo.com/channels/friendsrepublic/286935698',
+      shorts: [
+        'https://www.youtube.com/embed/KgfPqX7FhmY?modestbranding=1',
+        'https://www.youtube.com/embed/wuwKUW_Wt7o?modestbranding=1',
+        'https://www.youtube.com/embed/OAlu2bsOeQA?modestbranding=1'
+      ],
       dek: `A Launch film for ‘Wallpaper of the year 2020’- Asian Paints Nilaya x Nicobar Design Studio.`,
       projectCredits: [
         'Directed by: Hetan Shah & Chinmay Deshpande'
