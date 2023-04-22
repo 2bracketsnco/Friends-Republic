@@ -34,7 +34,7 @@ export class PortfolioComponent implements OnInit {
       byline: 'Commercial',
       class: 'doc', 
       cover: 'https://res.cloudinary.com/kaushalshah1307/image/upload/v1599044050/Friends%27%20Republic/Assets/fr_Asian-Paints.jpg', 
-      video: 'https://www.youtube.com/embed/Bx9EeWRNFw8?modestbranding=1', 
+      video: 'https://www.youtube.com/embed/Bx9EeWRNFw8?modestbranding=1',
       reference: 'https://vimeo.com/channels/friendsrepublic/286935698',
       shorts: [
         'https://www.youtube.com/embed/KgfPqX7FhmY?modestbranding=1',
