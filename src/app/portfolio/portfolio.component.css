@@ -400,6 +400,16 @@ p.project-meta {
   margin-top: 50px;
 }
 
+/* styles for youtube shorts */
+.shorts {
+  padding-right: 20px;
+}
+
+.shorts>iframe {
+  width: 160px;
+  height: 280px;
+}
+
 @media screen and (min-width: 1440px) {
   .project-meta {
     padding-left: 30px;
@@ -410,5 +420,10 @@ p.project-meta {
 @media screen and (max-width: 992px) {
   .project-meta {
     margin-top: 20px;
+  }
+
+  .shorts>iframe {
+    width: 130px;
+    height: 250px;
   }
 }
