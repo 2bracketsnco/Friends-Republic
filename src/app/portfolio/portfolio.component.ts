@@ -39,7 +39,8 @@ export class PortfolioComponent implements OnInit {
       shorts: [
         'https://www.youtube.com/embed/KgfPqX7FhmY?modestbranding=1',
         'https://www.youtube.com/embed/wuwKUW_Wt7o?modestbranding=1',
-        'https://www.youtube.com/embed/OAlu2bsOeQA?modestbranding=1'
+        'https://www.youtube.com/embed/OAlu2bsOeQA?modestbranding=1',
+        'https://player.vimeo.com/video/824226081?h=d4582971ec'
       ],
       dek: `A Launch film for ‘Wallpaper of the year 2020’- Asian Paints Nilaya x Nicobar Design Studio.`,
       projectCredits: [

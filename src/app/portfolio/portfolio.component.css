@@ -423,7 +423,7 @@ p.project-meta {
   }
 
   .shorts>iframe {
-    width: 130px;
+    width: 100%;
     height: 250px;
   }
 }
